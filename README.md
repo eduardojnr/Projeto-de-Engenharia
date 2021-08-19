@@ -5,7 +5,7 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |----------------|:-------------------------------:
 |Eduardo Carlos  |Scrum Master |
 |Johnny William  |Product Owner |
-|Kledyson Henrique|Front-end|
+|Kledyson Goes|Front-end|
 |Guilherme Vieira|Front-end|
 |Sebastião Vitor dos Santos|Back-end|
 |Matheus Barbosa|Back-end| 
