@@ -9,6 +9,7 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Guilherme Vieira|Front-end|
 |Sebastião Vitor dos Santos|Back-end|
 |Matheus Barbosa|Back-end| 
+|Paulo Vitor|Back-end| 
 
 ## Links da equipe
 - [Trello](https://trello.com/projetolaboratoriodeengenharia/home)
