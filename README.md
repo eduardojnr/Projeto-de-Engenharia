@@ -7,7 +7,7 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Johnny William  |Product Owner |
 |Kledyson Goes|Front-end|
 |Guilherme Vieira|Front-end|
-|Sebastião Vitor dos Santos|Back-end|
+|Sebastião Vitor|Back-end|
 |Matheus Barbosa|Back-end| 
 |Paulo Vitor|Back-end| 
 
