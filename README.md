@@ -9,7 +9,13 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Guilherme Vieira|Front-end|
 |Sebastião Vitor|Back-end|
 |Matheus Barbosa|Back-end| 
-|Paulo Vitor|Back-end| 
+|Paulo Vitor|Back-end|
+
+## Tecnologias
+- Linguagem: Java
+- Framework e bibliotecas: Spring, JPA e Hibernate
+- Estrutura padrão: REST
+- Banco: Postgres
 
 ## Links da equipe
 - [Trello](https://trello.com/projetolaboratoriodeengenharia/home)
