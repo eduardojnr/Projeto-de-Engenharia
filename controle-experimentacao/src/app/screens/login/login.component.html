@@ -4,6 +4,7 @@
     <mat-grid-list cols="2" rowHeight="750px">
       <mat-grid-tile class="card-part-1">
         <img src="../../../assets/icons/png/experiment.png">
+        <!-- <h1>SCEAPP</h1> -->
       </mat-grid-tile>
       <mat-grid-tile><div class="content" role="main">
 
@@ -18,7 +19,7 @@
             <mat-label>
               Username
             </mat-label>
-            <input matInput placeholder="sam.porter">
+            <input matInput placeholder="">
             <mat-icon matSuffix>badge</mat-icon>
           </mat-form-field>
         </div>
@@ -36,6 +37,8 @@
             </button>
           </mat-form-field>
         </div>
+
+        <a [routerLink]="['/recovery']" routerLinkActive="router-link-active" >Esqueceu sua senha?</a>
 
         <div class="card-container">
           <button mat-button class="button-login" color="primary">

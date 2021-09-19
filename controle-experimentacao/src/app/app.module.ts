@@ -15,12 +15,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    RecuperacaoSenhaComponent
   ],
   imports: [
     BrowserModule,
