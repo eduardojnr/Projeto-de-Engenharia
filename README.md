@@ -12,11 +12,13 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Paulo Vitor|Back-end|
 
 ## Tecnologias
-- Linguagem: Java
-- Framework e bibliotecas: Spring, JPA e Hibernate
+- Linguagem: Java <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/java.com_.png" align="center" width="48">
+- Framework e bibliotecas: Spring, JPA e Hibernate <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/spring.png" align="center" width="48"> <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/hibernate.png" align="center" width="48">
 - Estrutura padrão: REST
 - Banco: Postgres
 
 ## Links da equipe
 - [Trello](https://trello.com/projetolaboratoriodeengenharia/home)
 - [Github](https://github.com/eduardojnr/Projeto-de-Engenharia)
+
+
