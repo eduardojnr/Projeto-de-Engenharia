@@ -1,5 +1,15 @@
 .login-card {
-  margin-top: 100px;
+  margin-top: 60px;
+  background-color: #2F3848;
+  width: 90%;
+}
+
+.card-part-1 {
+  background: #2F3848;
+}
+
+mat-grid-tile {
+  background: #1B2A38;
 }
 
 .button-login {
@@ -7,6 +17,8 @@
   width: 240px;
   height: 60px;
   margin-bottom: 20px;
+  color: white;
+  background-color: #81D2C7;
 }
 
 // css temporario
@@ -95,6 +107,7 @@ svg.material-icons:not(:last-child) {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 16px;
+  color: white;
 }
 
 .card {

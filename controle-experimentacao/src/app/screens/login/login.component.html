@@ -1,36 +1,56 @@
-<div>
+<div class="card-container">
 
   <mat-card class="login-card">
-    <mat-card-content>
-
-      <div class="content" role="main">
+    <mat-grid-list cols="2" rowHeight="750px">
+      <mat-grid-tile class="card-part-1">
+        <img src="../../../assets/icons/png/experiment.png">
+      </mat-grid-tile>
+      <mat-grid-tile><div class="content" role="main">
 
         <div class="card-container">
-
           <h2>
             Olá, Seja bem-vindo
           </h2>
-
         </div>
 
         <div class="card-container">
+          <mat-form-field appearance="outline">
+            <mat-label>
+              Username
+            </mat-label>
+            <input matInput placeholder="sam.porter">
+            <mat-icon matSuffix>badge</mat-icon>
+          </mat-form-field>
+        </div>
 
-          <button mat-button class="button-login">
+        <div class="card-container">
+          <mat-form-field appearance="outline">
+            <mat-label>
+              Senha
+            </mat-label>
+            <input matInput [type]="hide ? ' password ' : 'text' " >
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Esconder senha'" [attr.aria-pressed]="hide">
+              <mat-icon>
+                {{ hide ? 'visibility_off' : 'visibility'}}
+              </mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+
+        <div class="card-container">
+          <button mat-button class="button-login" color="primary">
             Login
           </button>
-
         </div>
 
         <a>Não tem uma conta?</a>
 
         <div class="card-container">
-
           <a class="card" rel="noopener" [routerLink]="['/cadastro']" routerLinkActive="router-link-active" >
             <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
             <span>Criar Conta</span>
             <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
           </a>
-
         </div>
 
         <!-- Links -->
@@ -74,8 +94,10 @@
           </a>
         </div> -->
 
-      </div>
-    </mat-card-content>
+      </div></mat-grid-tile>
+    </mat-grid-list>
   </mat-card>
 
 </div>
+
+
