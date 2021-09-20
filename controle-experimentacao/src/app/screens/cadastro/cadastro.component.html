@@ -1,1 +1,118 @@
-<p>cadastro works!</p>
+<div class="card-container">
+
+  <mat-card class="login-card">
+
+    <mat-grid-list cols="3" rowHeight="800px">
+
+      <!-- coluna 1 -->
+      <mat-grid-tile></mat-grid-tile>
+
+      <!-- coluna 2 -->
+      <mat-grid-tile>
+        <div class="content" role="main">
+
+          <div class="card-container">
+            <h2>
+              Cadastrar um novo usuário
+            </h2>
+          </div>
+
+          <!-- campo 1 -->
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>
+                Username
+              </mat-label>
+              <input matInput placeholder="">
+              <mat-icon matSuffix>badge</mat-icon>
+            </mat-form-field>
+          </div>
+
+          <!-- campo 2 -->
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>
+                Senha
+              </mat-label>
+              <input matInput [type]="hide ? ' password ' : 'text' " >
+              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Esconder senha'" [attr.aria-pressed]="hide">
+                <mat-icon>
+                  {{ hide ? 'visibility_off' : 'visibility'}}
+                </mat-icon>
+              </button>
+            </mat-form-field>
+          </div>
+
+          <!-- campo 3 -->
+          <div class="card-container">
+
+          </div>
+
+          <!-- campo 4 -->
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="sam.porter@bridges.com" [formControl]="email" required/>
+              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+              <mat-icon matSuffix>email</mat-icon>
+            </mat-form-field>
+          </div>
+
+          <!-- campo 5 -->
+          <!-- <div class="card-container">
+            <mat-form-field appearance="outline">
+              <mat-label>Choose a date</mat-label>
+              <input matInput [matDatepicker]="picker">
+              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+          </div> -->
+
+          <!-- campo 6 -->
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>Sexo</mat-label>
+              <mat-select>
+                <mat-option value="Masculino">Masculino</mat-option>
+                <mat-option value="Feminino">Feminino</mat-option>
+                <mat-option value="Outro">Outro</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <!-- campo 7 -->
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>Campo de atuação</mat-label>
+              <input matInput placeholder="">
+              <mat-icon matSuffix>label</mat-icon>
+            </mat-form-field>
+          </div>
+
+          <div class="card-container">
+            <button mat-button class="button-login" color="primary">
+              Cadastrar
+            </button>
+          </div>
+
+          <a>Tem uma conta?</a>
+
+          <div class="card-container">
+            <a class="card" rel="noopener" [routerLink]="['/login']" routerLinkActive="router-link-active" >
+              <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+              <span>Fazer login</span>
+              <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </a>
+          </div>
+
+        </div>
+      </mat-grid-tile>
+
+      <!-- coluna 3 -->
+      <mat-grid-tile></mat-grid-tile>
+
+    </mat-grid-list>
+
+  </mat-card>
+
+</div>
