@@ -12,13 +12,28 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Paulo Vitor|Back-end|
 
 ## Tecnologias
-- Linguagem: Java <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/java.png" align="center" width="48">
-- Framework e bibliotecas: Spring, JPA e Hibernate <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/spring.png" align="center" width="48"> <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/hibernate.png" align="center" width="48">
-- Estrutura padrão: REST <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/rest.png" align="center" width="48">
-- Banco: Postgres <img src="https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/to_readme/postgres.png" align="center" width="48">
+<div>
+  <a href="https://github.com/eduardojnr/Projeto-de-Engenharia">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="6%" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="6%" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="6%" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"  width="6%" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"  width="6%" />
+  </a>  
+</div>
 
+  - Linguagem: Java e TypeScript
+  - Framework e bibliotecas: Angular, Spring, JPA e Hibernate
+  - Estrutura padrão: REST 
+  - Banco: Postgres 
+  
 ## Links da equipe
-- [Trello](https://trello.com/projetolaboratoriodeengenharia/home)
-- [Github](https://github.com/eduardojnr/Projeto-de-Engenharia)
+<div>
+  <a href="https://trello.com/projetolaboratoriodeengenharia">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" width="6%" />
+  </a>
+  <a href="https://github.com/eduardojnr/Projeto-de-Engenharia">
+    <img src="https://i.imgur.com/lZp4enQ.png" width="6%"/>
+  </a>
 
-
+  
