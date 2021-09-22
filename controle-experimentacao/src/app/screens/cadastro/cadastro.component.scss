@@ -1,20 +1,25 @@
 .login-card {
   margin-top: 60px;
-  background-color: #1B2A38;
+  // background-color: #1B2A38;
   width: 90%;
 }
 
-.card-part-1 {
-  background: #1B2A38;
+.campos-div {
+  width: 300px;
+  float: left;
 }
 
-mat-label {
-  color: white;
-}
+// .card-part-1 {
+//   background: #1B2A38;
+// }
 
-input {
-  color: white;
-}
+// mat-label {
+//   color: white;
+// }
+
+// input {
+//   color: white;
+// }
 
 // mat-grid-tile {
 //   background: #1B2A38;
@@ -115,7 +120,7 @@ svg.material-icons:not(:last-child) {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 16px;
-  color: white;
+  // color: white;
 }
 
 .card {
