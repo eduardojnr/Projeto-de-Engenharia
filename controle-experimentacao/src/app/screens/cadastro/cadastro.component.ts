@@ -28,4 +28,4 @@ export class CadastroComponent implements OnInit {
 }
 
 export class GridListOverviewExample {}
-
+export class DatepickerOverviewExample {}
