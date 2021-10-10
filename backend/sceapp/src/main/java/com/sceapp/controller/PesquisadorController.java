@@ -32,4 +32,9 @@ public class PesquisadorController {
 		Pesquisador obj = service.inserirPesquisador(pesquisador);
 		return ResponseEntity.ok().body(obj);
 	}
+		
+	public ResponseEntity<?> responseUpgradePesquisador(Pesquisador pesquisador){
+			Pesquisador obj = service.atualizaePesquisador(pesquisador);
+			return ResponseEntity.ok().body(obj);
+	}
 }
