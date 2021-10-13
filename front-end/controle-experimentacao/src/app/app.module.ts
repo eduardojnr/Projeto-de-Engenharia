@@ -18,13 +18,19 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
 import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
+import { HomeComponent } from './screens/home/home.component';
+import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
+import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CadastroComponent,
-    RecuperacaoSenhaComponent
+    RecuperacaoSenhaComponent,
+    HomeComponent,
+    MenuSimplesComponent,
+    MenuPrincipalComponent
   ],
   imports: [
     BrowserModule,
