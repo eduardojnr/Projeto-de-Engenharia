@@ -31,9 +31,10 @@ public class PesquisadorController {
 		return ResponseEntity.ok().body(obj);
 	}
 
+	//Mostrar pesquisador pelo id
 	@GetMapping("/{id}")
 	public ResponseEntity<?> responseListarPesquisador(@PathVariable("id") long id) {
-		List<Pesquisador> obj = service.listarPesquisadores();
+		Pesquisador obj = service.buscarPesquisadorPorId(id);
 		return ResponseEntity.ok().body(obj);
 	}
 	

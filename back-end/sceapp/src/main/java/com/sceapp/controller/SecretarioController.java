@@ -25,12 +25,14 @@ public class SecretarioController {
     @Autowired
 	private SecretarioService service;
 	
+	//Pega lista de secretarios
     @GetMapping("/")
 	public ResponseEntity<?> responseListarSecretarios(){
 		List<Secretario> obj = service.listarSecretarios();
 		return ResponseEntity.ok().body(obj);
 	}
 
+	//Cadastra secretario
     @PostMapping("/secretario")
     @ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> responseInserirSecretario(@RequestBody Secretario secretario){
