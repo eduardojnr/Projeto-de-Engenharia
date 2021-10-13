@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { PesquisadorService } from 'src/app/service/pesquisador.service';
 
 @Component({
   selector: 'app-cadastro',
@@ -20,7 +21,9 @@ export class CadastroComponent implements OnInit {
 
   hide = true;
 
-  constructor() { }
+  constructor(
+    public pesquisadorService: PesquisadorService
+  ) { }
 
   ngOnInit(): void {
   }
