@@ -17,15 +17,14 @@ import com.sceapp.repository.PesquisadorRepository;
 import com.sceapp.services.PesquisadorService;
 
 @RestController
-//@RequestMapping("/pesquisador")
+@RequestMapping("/pesquisador")
 public class PesquisadorController {
 	
 	@Autowired
 	private PesquisadorService service;
 	
 	//Pega lista de pesquisadores
-	//@GetMapping("/")
-	@GetMapping("/pesquisador")
+	@GetMapping("/")
 	public ResponseEntity<?> responseListarPesquisadores(){
 		List<Pesquisador> obj = service.listarPesquisadores();
 		return ResponseEntity.ok().body(obj);
