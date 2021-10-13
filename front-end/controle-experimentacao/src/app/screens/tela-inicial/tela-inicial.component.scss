@@ -1,0 +1,20 @@
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu-item {
+  background-color: #AB77F8;
+  text-align: center;
+  width: 15%;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 60%;
+  padding-top: 20px;
+}
