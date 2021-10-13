@@ -25,7 +25,7 @@ public class PesquisadorController {
 	
 	//Pega lista de pesquisadores
 	//@GetMapping("/")
-	@RequestMapping("/pesquisador")
+	@GetMapping("/pesquisador")
 	public ResponseEntity<?> responseListarPesquisadores(){
 		List<Pesquisador> obj = service.listarPesquisadores();
 		return ResponseEntity.ok().body(obj);
