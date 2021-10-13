@@ -23,12 +23,16 @@ public class PesquisadorController {
 	@Autowired
 	private PesquisadorService service;
 	
-	//@GetMapping
+        //Pega lista de pesquisadores
+	@GetMapping
 	public ResponseEntity<?> responseListarPesquisadores(){
 		List<Pesquisador> obj = service.listarPesquisadores();
 		return ResponseEntity.ok().body(obj);
 	}
 	
+        //Cadastra um novo pesquisador
+        @PostMapping
+        @ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> responseInserirPesquisador(Pesquisador pesquisador){
 		Pesquisador obj = service.inserirPesquisador(pesquisador);
 		return ResponseEntity.ok().body(obj);

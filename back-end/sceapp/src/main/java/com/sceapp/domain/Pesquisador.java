@@ -8,6 +8,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 
 import com.sceapp.enums.PesquisadorEnum;
+import java.util.Objects;
 
 @Entity
 public class Pesquisador {
@@ -98,5 +99,31 @@ public class Pesquisador {
 	public void setCampoDeAtuacao(PesquisadorEnum campoDeAtuacao) {
 		this.campoDeAtuacao = campoDeAtuacao;
 	}
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 47 * hash + Objects.hashCode(this.id);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Pesquisador other = (Pesquisador) obj;
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        return true;
+    }
 	
+        
 }
