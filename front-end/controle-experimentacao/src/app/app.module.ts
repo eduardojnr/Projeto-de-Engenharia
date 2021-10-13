@@ -19,13 +19,20 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
 import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
+import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.component';
+import { ToolbarLogadoComponent } from './components/toolbar-logado/toolbar-logado.component';
+import { MatToolbarModule } from '@angular/material/toolbar'
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CadastroComponent,
-    RecuperacaoSenhaComponent
+    RecuperacaoSenhaComponent,
+    MenuSimplesComponent,
+    TelaInicialComponent,
+    ToolbarLogadoComponent
   ],
   imports: [
     HttpClientModule,
@@ -41,7 +48,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatGridListModule,
     MatDatepickerModule,
-    MatSelectModule
+    MatSelectModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
