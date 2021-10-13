@@ -23,7 +23,7 @@ public class PesquisadorController {
 	@Autowired
 	private PesquisadorService service;
 	
-	@GetMapping
+	//@GetMapping
 	public ResponseEntity<?> responseListarPesquisadores(){
 		List<Pesquisador> obj = service.listarPesquisadores();
 		return ResponseEntity.ok().body(obj);
