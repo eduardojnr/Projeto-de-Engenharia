@@ -31,11 +31,27 @@ public class PesquisadorService {
 	    return obj;
 	}
 	
-	public void deletarPesquisador(Pesquisador pesquisador) {
-		repository.delete(pesquisador);
+	public void deletarPesquisador(Long id) {
+		repository.deleteById(id);
 	}
 	
-	public Pesquisador atualizaePesquisador(Pesquisador pesquisador) {
-		return repository.save(pesquisador);
+	public Pesquisador atualizaePesquisador(Pesquisador novoPesquisador, Long id) {
+		return repository.findById(id).map(pesquisador -> {
+			pesquisador.setNome(novoPesquisador.getNome());
+			pesquisador.setUsername(novoPesquisador.getUsername());
+			pesquisador.setSenha(novoPesquisador.getSenha());
+			pesquisador.setCpf(novoPesquisador.getCpf());
+			pesquisador.setEmail(novoPesquisador.getEmail());
+			pesquisador.setDataDeNascimento(novoPesquisador.getDataDeNascimento());
+			pesquisador.setSexo(novoPesquisador.getSexo());
+			pesquisador.setCampoDeAtuacao(novoPesquisador.getCampoDeAtuacao());
+			return repository.save(pesquisador);	
+		}
+				)
+				.orElseGet(() -> {
+					novoPesquisador.setId(id);
+					return repository.save(novoPesquisador);
+				}
+						);
 	}
 }

@@ -5,9 +5,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -45,9 +47,17 @@ public class PesquisadorController {
 		Pesquisador obj = service.inserirPesquisador(pesquisador);
 		return ResponseEntity.ok().body(obj);
 	}
-		
-	public ResponseEntity<?> responseUpgradePesquisador(Pesquisador pesquisador){
-			Pesquisador obj = service.atualizaePesquisador(pesquisador);
+	
+    //Atualizar pesquisador já cadastrado
+    @PutMapping("/pesquisador/{id}")
+	public ResponseEntity<?> responseUpgradePesquisador(@RequestBody Pesquisador pesquisador, @PathVariable("id") long id){
+			Pesquisador obj = service.atualizaePesquisador(pesquisador, id);
 			return ResponseEntity.ok().body(obj);
 	}
+    
+    //Deletar pesquisador já cadastrado
+    @DeleteMapping("/pesquisador/{id}")
+    public void DeletarPesquisador(@PathVariable Long id) {
+    	service.deletarPesquisador(id);
+    }
 }
