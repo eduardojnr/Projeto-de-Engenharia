@@ -35,7 +35,7 @@ public class PesquisadorService {
 		repository.deleteById(id);
 	}
 	
-	public Pesquisador atualizaePesquisador(Pesquisador novoPesquisador, Long id) {
+	public Pesquisador atualizarPesquisador(Pesquisador novoPesquisador, Long id) {
 		return repository.findById(id).map(pesquisador -> {
 			pesquisador.setNome(novoPesquisador.getNome());
 			pesquisador.setUsername(novoPesquisador.getUsername());

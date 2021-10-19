@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 
-import com.sceapp.enums.PesquisadorEnum;
+//import com.sceapp.enums.PesquisadorEnum;
 import java.util.Objects;
 
 @Entity
@@ -26,7 +26,7 @@ public class Pesquisador {
 	
 	private String dataDeNascimento;
 	private String sexo;
-	private PesquisadorEnum campoDeAtuacao;
+	private String campoDeAtuacao;
 	
 	public Long getId() {
 		return id;
@@ -92,11 +92,11 @@ public class Pesquisador {
 		this.sexo = sexo;
 	}
 
-	public PesquisadorEnum getCampoDeAtuacao() {
+	public String getCampoDeAtuacao() {
 		return campoDeAtuacao;
 	}
 
-	public void setCampoDeAtuacao(PesquisadorEnum campoDeAtuacao) {
+	public void setCampoDeAtuacao(String campoDeAtuacao) {
 		this.campoDeAtuacao = campoDeAtuacao;
 	}
 
@@ -123,7 +123,5 @@ public class Pesquisador {
             return false;
         }
         return true;
-    }
-	
-        
+    }     
 }

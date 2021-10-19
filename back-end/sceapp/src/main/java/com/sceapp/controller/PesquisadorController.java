@@ -51,7 +51,7 @@ public class PesquisadorController {
     //Atualizar pesquisador já cadastrado
     @PutMapping("/pesquisador/{id}")
 	public ResponseEntity<?> responseUpgradePesquisador(@RequestBody Pesquisador pesquisador, @PathVariable("id") long id){
-			Pesquisador obj = service.atualizaePesquisador(pesquisador, id);
+			Pesquisador obj = service.atualizarPesquisador(pesquisador, id);
 			return ResponseEntity.ok().body(obj);
 	}
     
