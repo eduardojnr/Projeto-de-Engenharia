@@ -4,29 +4,29 @@ RELATÓRIO
 
 **e pelo Product Owner Johnny William**
 
-18/08/2021
+# 18/08/2021
 
 • Acordamos que nosso grupo seria composto da seguinte maneira:
 
+| Membros | Funções |
 | Johnny William | Product Owner |
-| --- | --- |
 | Eduardo Carlos Santos Pereira Junior | Scrum Master |
 | Guilherme Vieira | Front-end |
 | Kledyson Goes | Front-end |
 | Matheus Barbosa | Back-end |
 | Sebastião Vitor dos Santos | Back-end |
 
-• Criamos o seguinte repositório para o projeto: [https://github.com/eduardojnr/Projeto-de-Engenharia](https://github.com/eduardojnr/Projeto-de-Engenharia)
+• Criamos o seguinte repositório para o projeto:
+[https://github.com/eduardojnr/Projeto-de-Engenharia](https://github.com/eduardojnr/Projeto-de-Engenharia)
 
 • Criamos o seguinte projeto no Trello:
-
 [https://trello.com/projetolaboratoriodeengenharia/home](https://trello.com/projetolaboratoriodeengenharia/home)
 
-25/08/2021
+# 25/08/2021
 
 • Começamos a esboçar as Histórias de Usuários.
 
-01/09/2021
+# 01/09/2021
 
 • Paulo Vitor Costa Melo se tornou membro da equipe de desenvolvimento e irá atuar no Back-end. O novo quadro da equipe é o seguinte:
 
@@ -49,45 +49,45 @@ RELATÓRIO
 
 • Começamos a criar os épicos e fomos ajustando as histórias de usuário com base no mesmo e logo após demos início a criação dos cenários de usuário.
 
-08/09/2021
+# 08/09/2021
 
 • Em reunião via Discord, os membros da equipe de desenvolvimento entraram em um novo consenso a respeito das tecnologias que serão usadas na implementação, havendo uma troca da Linguagem C# pela linguagem Java, a troca da linguagem foi feita pela inclusão de um novo membro na equipe no dia 01/09.
 
 • Johnny William fez a descrição dos cenários de uso das histórias de usuários no Trello.
 
-15/09/2021
+# 15/09/2021
 
 • Johnny William fez atualizações na documentação.
 
-16/09/2021
+# 16/09/2021
 
 • O membro Vitor dos Santos criou o ambiente no SGBD PostgreSQL.
 
-17/09/2021
+# 17/09/2021
 
 • O membro Kledyson Goes fez os protótipos das telas de login e cadastro.
 
 
 
-18/09/2021
+# 18/09/2021
 
 • O membro Vitor Costa implementou em Java os requisitos de Back-end descritos nos épicos 1 e 2.
 
-19/09/2021
+# 19/09/2021
 
 • Johnny William realizou alterações no Readme.md;
 
 • Kledyson Goes realizou a implementação dos requisitos de Front-end descritos nos épicos 1 e 2 por meio da tecnologia Angular.
 
-20/09/2021
+# 20/09/2021
 
 • Kledyson Goes implementou validações pelo Front-end.
 
-21/09/2021
+# 21/09/2021
 
 • Kledyson Goes realizou alterações no Readme.md.
 
-22/09/2021
+# 22/09/2021
 
 • Kledyson Goes adicionou campos de interação com o usuário nas páginas de login e cadastro;
 
@@ -95,31 +95,31 @@ RELATÓRIO
 
 • Apresentação das etapas desenvolvidas adiada.
 
-23/09/2021
+# 23/09/2021
 
 • Sebastião Vitor deu o commit inicial do Back-end do projeto.
 
-29/09/2021
+# 29/09/2021
 
 • Guilherme Vieira efetuou correções no campo de senha na tela de cadastro.
 
-10/10/2021
+# 10/10/2021
 
 • Sebastião Vitor realizou ajustes no Back-end;
 
 • Vitor Costa realizou atualizações em _application.properties_.
 
-11/10/2021
+# 11/10/2021
 
 • Vitor Costa realizou o deploy da aplicação no Heroku.
 
-12/10/2021
+# 12/10/2021
 
 • Kledyson Goes realizou alterações nos protótipos de tela inicial e menu;
 
 • Vitor Costa realizou alterações em _Pesquisador.Controller.java_.
 
-13/10/2021
+# 13/10/2021
 
 • Guilherme Vieira realizou configurações no Heroku;
 
@@ -133,11 +133,11 @@ RELATÓRIO
 
 • Kledyson Goes adicionou as telas de menu logado e tela inicial logado.
 
-19/10/2021
+# 19/10/2021
 
 • Vitor Costa realizou ajustes em _PesquisadorController, SecretarioController, Pesquisador, PesquisadorService, SecretarioService._
 
-20/10/2021
+# 20/10/2021
 
 • Kledyson implementou códigos para autenticação de login e cadastro pelo Angular no Front-end, configurou serviços de autenticação;
 
