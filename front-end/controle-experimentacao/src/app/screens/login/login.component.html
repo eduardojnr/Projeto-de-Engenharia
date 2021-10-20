@@ -17,33 +17,40 @@
           </h2>
         </div>
 
-        <div class="card-container">
-          <mat-form-field appearance="outline" style="width: 300px;">
-            <mat-label>
-              Username
-            </mat-label>
-            <input matInput placeholder="">
-            <mat-icon matSuffix>badge</mat-icon>
-          </mat-form-field>
-        </div>
+        <form
+        *ngIf="!isLoggedIn"
+        name="form"
+        (ngSubmit)="f.form.valid && onSubmit()"
+        #f="ngForm"
+        novalidate>
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>
+                Username
+              </mat-label>
+              <input matInput placeholder="" type="text" class="form-control" name="username" [(ngModel)]="form.username" required #username="ngModel">
+              <mat-icon matSuffix>badge</mat-icon>
+            </mat-form-field>
+          </div>
 
-        <div class="card-container">
-          <mat-form-field appearance="outline" style="width: 300px;">
-            <mat-label>Senha</mat-label>
-            <input matInput [type]="hide ? 'password' : 'text'">
-            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          <div class="card-container">
+            <mat-form-field appearance="outline" style="width: 300px;">
+              <mat-label>Senha</mat-label>
+              <input matInput [type]="hide ? 'password' : 'text'" class="form-control" name="senha" [(ngModel)]="form.password" #senha="ngModel">
+              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </button>
+            </mat-form-field>
+          </div>
+
+          <a [routerLink]="['/recovery']" routerLinkActive="router-link-active" >Esqueci minha senha</a>
+
+          <div class="card-container" [routerLink]="['/home']" routerLinkActive="router-link-active">
+            <button mat-button class="button-login" color="primary">
+              Login
             </button>
-          </mat-form-field>
-        </div>
-
-        <a [routerLink]="['/recovery']" routerLinkActive="router-link-active" >Esqueci minha senha</a>
-
-        <div class="card-container" [routerLink]="['/home']" routerLinkActive="router-link-active">
-          <button mat-button class="button-login" color="primary">
-            Login
-          </button>
-        </div>
+          </div>
+        </form>
 
         <a>Não tem uma conta?</a>
 

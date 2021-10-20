@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HttpClientModule } from '@angular/common/http';
+import { authInterceptorProviders } from './helper/auth.interceptor';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './screens/login/login.component';
@@ -18,7 +21,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
 import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
-import { HttpClientModule } from '@angular/common/http';
+
 import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
 import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.component';
 import { ToolbarLogadoComponent } from './components/toolbar-logado/toolbar-logado.component';
@@ -51,7 +54,7 @@ import { MatToolbarModule } from '@angular/material/toolbar'
     MatSelectModule,
     MatToolbarModule
   ],
-  providers: [],
+  providers: [authInterceptorProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
