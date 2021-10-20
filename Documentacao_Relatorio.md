@@ -67,7 +67,7 @@ RELATÓRIO
 
 • O membro Kledyson Goes fez os protótipos das telas de login e cadastro.
 
-![](RackMultipart20211020-4-fv3cor_html_1a3564601778ff89.png) ![](RackMultipart20211020-4-fv3cor_html_a9c484626b6b6246.png)
+
 
 18/09/2021
 
@@ -149,13 +149,7 @@ Commits
 
 Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https://github.com/eduardojnr/Projeto-de-Engenharia/commits/main?after=1226c7f455d6b5f63acb97eaf6bee8800ab0a441+69&amp;branch=main).
 
-![](RackMultipart20211020-4-fv3cor_html_91597543e046b182.png)
 
-![](RackMultipart20211020-4-fv3cor_html_9a8705e80672272c.png)
-
-![](RackMultipart20211020-4-fv3cor_html_2541e3506967e6be.png)
-
-![](RackMultipart20211020-4-fv3cor_html_217843ecf15ae0dd.png)
 
 Sprints e Tarefas
 
@@ -167,13 +161,5 @@ As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
 - Prototipar tela inicial
 - Subir front-end na web
 - Subir back-end na web
-
-![](RackMultipart20211020-4-fv3cor_html_1a3564601778ff89.png)
-
-![](RackMultipart20211020-4-fv3cor_html_a9c484626b6b6246.png)
-
-![](RackMultipart20211020-4-fv3cor_html_9f5c7dbe9213f2eb.png)
-
-![](RackMultipart20211020-4-fv3cor_html_5a7e3b00f5bf2852.png)
 
 E as sprints de histórias de usuário não foram concluídas por não estarem acessíveis pro cliente, devido às impossibilidade de acesso às funções de login e cadastro.
