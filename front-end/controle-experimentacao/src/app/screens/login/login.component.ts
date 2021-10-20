@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PesquisadorService } from 'src/app/service/pesquisador.service';
 
 @Component({
   selector: 'app-login',
@@ -9,7 +10,9 @@ export class LoginComponent implements OnInit {
 
   hide = true;
 
-  constructor() { }
+  constructor(
+    public pesquisadorService: PesquisadorService
+    ) { }
 
   ngOnInit(): void {
   }
