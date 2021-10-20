@@ -1,1 +1,35 @@
 <app-menu-simples></app-menu-simples>
+
+<div class="card-container">
+
+  <mat-card class="login-card">
+
+    <mat-grid-list cols="3" rowHeight="790px">
+      <mat-grid-tile></mat-grid-tile>
+
+      <mat-grid-tile>
+
+        <div class="content" role="main">
+          <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="sam.porter@bridges.com" [formControl]="email" required/>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+
+          <div class="card-container">
+            <button mat-button class="button-login" color="primary">
+              Recuperar Senha
+            </button>
+          </div>
+        </div>
+
+
+
+      </mat-grid-tile>
+
+    </mat-grid-list>
+
+  </mat-card>
+
+</div>
