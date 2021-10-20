@@ -4,7 +4,7 @@
 
   <mat-card class="login-card">
 
-    <mat-grid-list cols="3" rowHeight="790px">
+    <mat-grid-list cols="3" rowHeight="1000px">
 
       <!-- coluna 1 -->
       <mat-grid-tile></mat-grid-tile>
@@ -45,6 +45,14 @@
               <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
                 <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
               </button>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
+              <mat-label>
+                Nome
+              </mat-label>
+              <input matInput placeholder="" required>
+              <mat-icon matSuffix>assignment_ind</mat-icon>
             </mat-form-field>
           </div>
 

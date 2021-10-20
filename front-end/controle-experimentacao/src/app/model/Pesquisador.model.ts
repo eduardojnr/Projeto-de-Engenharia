@@ -1,5 +1,5 @@
 export interface Pesquisador{
-    id: string;
+    id: number;
     nome: string;
     username: string;
     senha: string;

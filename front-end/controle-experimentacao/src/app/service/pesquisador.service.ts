@@ -19,7 +19,7 @@ export class PesquisadorService {
   constructor(private httpClient: HttpClient) { }
 
   create(pesquisador: Pesquisador): Observable<Pesquisador> {
-    return this.httpClient.post<Pesquisador>(this.URL + '/pesquisadores/pesquisador', JSON.stringify(pesquisador), this.httpOptions)
+    return this.httpClient.post<any>(this.URL + '/pesquisadores/pesquisador', JSON.stringify(pesquisador), this.httpOptions)
         .pipe(
             catchError(this.handleError)
         );
@@ -27,5 +27,5 @@ export class PesquisadorService {
   private handleError(error: HttpErrorResponse) {
     return throwError(error.error);
 }
-  
+
 }
