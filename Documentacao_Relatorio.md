@@ -179,5 +179,3 @@ As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
 Dashboard da secretária
 
 ![Dashboard Secretária](https://i.imgur.com/wLo0M8W.png)
-
-E as sprints de histórias de usuário não foram concluídas por não estarem acessíveis pro cliente, devido às impossibilidade de acesso às funções de login e cadastro.
