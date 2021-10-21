@@ -1,14 +1,13 @@
 RELATÓRIO
 
-**Redigido pelo Scrum Master Eduardo Carlos**
-
-**e pelo Product Owner Johnny William**
+**Redigido por Eduardo Carlos (Scrum Master) e Johnny William (Product Owner)**
 
 # 18/08/2021
 
 • Acordamos que nosso grupo seria composto da seguinte maneira:
 
 | Membros | Funções |
+---|---|
 | Johnny William | Product Owner |
 | Eduardo Carlos Santos Pereira Junior | Scrum Master |
 | Guilherme Vieira | Front-end |
@@ -30,8 +29,9 @@ RELATÓRIO
 
 • Paulo Vitor Costa Melo se tornou membro da equipe de desenvolvimento e irá atuar no Back-end. O novo quadro da equipe é o seguinte:
 
+| Membros | Funções |
+---|---|
 | Johnny William | Product Owner |
-| --- | --- |
 | Eduardo Carlos Santos Pereira Junior | Scrum Master |
 | Guilherme Vieira | Front-end |
 | Kledyson Goes | Front-end |
@@ -41,8 +41,9 @@ RELATÓRIO
 
 • Em reunião via Discord decidimos as tecnologias que seriam utilizadas na implementação do projeto.
 
-| C# | Back-end |
+| Tecnologias | Âmbito |
 | --- | --- |
+| C# | Back-end |
 | Angular | Front-end |
 | PostgreSQL | SGBD |
 | Vercel | Hospedagem |
@@ -67,6 +68,9 @@ RELATÓRIO
 
 • O membro Kledyson Goes fez os protótipos das telas de login e cadastro.
 
+![Tela de Login](https://i.imgur.com/FHFwFXLh.jpg)
+
+![Tela de Cadastro](https://i.imgur.com/TkoXXVY.png)
 
 
 # 18/09/2021
@@ -143,13 +147,19 @@ RELATÓRIO
 
 • Guilherme Vieira fez ajustes no Front-end, criou a tela de recuperação de senha, alterações na tela de cadastro.
 
-Insights dos colaboradores
+# Insights dos colaboradores
 
-Commits
+## Commits
 
 Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https://github.com/eduardojnr/Projeto-de-Engenharia/commits/main?after=1226c7f455d6b5f63acb97eaf6bee8800ab0a441+69&amp;branch=main).
 
+![Commits do repositório](https://i.imgur.com/mXWfcMb.png)
 
+![Commits Kledyson e Vitor Costa](https://i.imgur.com/9VAWeBw.png)
+
+![Commits Johnny e Gabriel](https://i.imgur.com/DcAsaju.png)
+
+![Commits Eduardo e Sebastião Vitor](https://i.imgur.com/bfGjO5h.png)
 
 Sprints e Tarefas
 
@@ -161,5 +171,13 @@ As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
 - Prototipar tela inicial
 - Subir front-end na web
 - Subir back-end na web
+
+![Tela de Login](https://i.imgur.com/FHFwFXLh.jpg)
+
+![Tela de Cadastro](https://i.imgur.com/TkoXXVY.png)
+
+Dashboard da secretária
+
+![Dashboard Secretária](https://i.imgur.com/wLo0M8W.png)
 
 E as sprints de histórias de usuário não foram concluídas por não estarem acessíveis pro cliente, devido às impossibilidade de acesso às funções de login e cadastro.
