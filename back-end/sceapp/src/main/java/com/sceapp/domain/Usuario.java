@@ -8,6 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import java.util.Objects;
+
 @Entity
 @Table(name="TB_USUARIO")
 public class Usuario implements Serializable{
@@ -119,7 +121,7 @@ public class Usuario implements Serializable{
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Pesquisador other = (Pesquisador) obj;
+        final Usuario other = (Usuario) obj;
         if (!Objects.equals(this.id, other.id)) {
             return false;
         }

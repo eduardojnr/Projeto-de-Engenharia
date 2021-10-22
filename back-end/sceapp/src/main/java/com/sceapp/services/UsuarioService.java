@@ -5,11 +5,9 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import com.unit.sceapp.models.Usuario;
-import com.unit.sceapp.repository.UsuarioRepository;
+import com.sceapp.domain.Usuario;
+import com.sceapp.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
@@ -19,22 +17,25 @@ public class UsuarioService {
 	
 	//OPERAÇÕES CRUD
 	public List<Usuario> listaUsuarios(){
-		return usuarioRepository.findAll();
+		List<Usuario> usuarios = usuarioRepository.findAll(); 
+		return usuarios;
 	}
 	
-	public Optional<Usuario> listaUsuarioUnico(@PathVariable(value="id") Long id){
-		return usuarioRepository.findById(id);
+	public Usuario listaUsuarioUnico(Long id){
+		Optional<Usuario> obj = usuarioRepository.findById(id);
+		return obj.orElse(null);
 	}
 	
-	public Usuario salvaUsuario(@RequestBody Usuario usuario) {
-		return usuarioRepository.save(usuario);
+	public Usuario salvaUsuario(Usuario usuario) {
+		Usuario obj = usuarioRepository.save(usuario);
+		return obj;
 	}
 	
-	public void deletaUsuario(@RequestBody Usuario usuario) {
+	public void deletaUsuario(Usuario usuario) {
 		usuarioRepository.delete(usuario);
 	}
 	
-	public Usuario atualizaUsuario(@RequestBody Usuario usuario) {
+	public Usuario atualizaUsuario(Usuario usuario) {
 		return usuarioRepository.save(usuario);
 	}
 }
