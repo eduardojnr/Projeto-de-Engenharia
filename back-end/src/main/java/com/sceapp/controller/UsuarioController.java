@@ -51,18 +51,18 @@ public class UsuarioController {
 		return ResponseEntity.ok().body(obj);
 	}
 	
-	//Deleta um usuário
-	@RequestMapping(value="/usuario", method=RequestMethod.DELETE)
-	@ApiOperation(value="Deleta um usuário")
-	public void deletaUsuario(@RequestBody Usuario usuario) {
-		usuarioService.deletaUsuario(usuario);
-	}
-	
 	//Atualiza um usuário
 	@RequestMapping(value="/usuario", method=RequestMethod.PUT)
 	@ApiOperation(value="Atualiza um usuário")
 	public ResponseEntity<?> atualizaUsuario(@RequestBody Usuario usuario) {
 		Usuario obj = usuarioService.atualizaUsuario(usuario);
 		return ResponseEntity.ok().body(obj);
+	}
+
+	//Deleta um usuário
+	@RequestMapping(value="/usuario", method=RequestMethod.DELETE)
+	@ApiOperation(value="Deleta um usuário")
+	public void deletaUsuario(@RequestBody Usuario usuario) {
+		usuarioService.deletaUsuario(usuario);
 	}
 }
