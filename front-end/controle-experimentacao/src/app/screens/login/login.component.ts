@@ -14,18 +14,21 @@ export class LoginComponent implements OnInit {
 
   hide = true;
 
-  user: any = {
-    username: null,
-    senha: null,
-  }
+  username = '';
+  senha = '';
 
-  constructor(private authService: AutenticacaoService) {}
+  // user: any = {
+  //   username: '',
+  //   senha: '',
+  // }
+
+  constructor(private authService: AutenticacaoService, private router: Router) {}
 
   ngOnInit(): void { }
 
   login() {
-    this.authService.autenticar(this.user.username, this.user.senha).subscribe(() => {
-      console.log('Autenticado com sucesso');
+    this.authService.autenticar(this.username, this.senha).subscribe(() => {
+      this.router.navigate(['home']);
     },
     (error: any) => {
       alert("Usuario ou senha invalida");
