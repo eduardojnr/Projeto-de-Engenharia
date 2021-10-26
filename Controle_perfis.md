@@ -4,10 +4,17 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 
 ### Pesquisador
 - Tela para atualização de cadastro
-- Tela protocolo  
--- Emissão de protocolo
--- Verificar status protocolo
--- Protocolos que foram designados 
+- Tela protocolo 
+
+
+|Opção|Função
+|-|------------|
+|1 |Emissão de protocolo  |
+|2 |Verificar status protocolo  |
+|3 |Protocolos que foram designados  | 
+
+
+
 
 ### Secretária
 - Tela para atualização de cadastro
@@ -30,6 +37,9 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 - Tela para gerenciar todos usuários do sistema
 - Tela para cadastrar ou excluir secretária
 - Tela para administrar cargo de presidente
--- Iniciar votação
--- Processo de votação
--- Finalizar votação
+
+|Etapas|Processo
+|-|------------|
+|1 |Iniciar votação  |
+|2 |Processo de votação  |
+|3 |Finalizar votação  | 
