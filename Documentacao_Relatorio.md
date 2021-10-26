@@ -161,7 +161,7 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 
 ![Commits Eduardo e Sebastião Vitor](https://i.imgur.com/bfGjO5h.png)
 
-Sprints e Tarefas
+## Sprints e Tarefas
 
 As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
 
