@@ -19,105 +19,93 @@
             </h2>
           </div>
 
-          <div class="card-container">
-            <mat-form-field appearance="outline" style="width: 300px;">
-              <mat-label>Tipo de usuário</mat-label>
-              <mat-select>
-                <mat-option value="Masculino">Secretária</mat-option>
-                <mat-option value="Feminino">Pesquisador</mat-option>
-              </mat-select>
-            </mat-form-field>
-          </div>
+          <form class="form mt-4" [formGroup]="cadastroForm" (submit)="cadastrar()">
+            <!-- campo nome -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
+                <mat-label>
+                  Nome
+                </mat-label>
+                <input matInput placeholder="" required formControlName="nome">
+                <mat-icon matSuffix>assignment_ind</mat-icon>
+              </mat-form-field>
+            </div>
 
-          <!-- campo 1 -->
-          <div class="card-container">
-            <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
-              <mat-label>
-                Username
-              </mat-label>
-              <input matInput placeholder="" required>
-              <mat-icon matSuffix>badge</mat-icon>
-            </mat-form-field>
+            <!-- username -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
+                <mat-label>
+                  Username
+                </mat-label>
+                <input matInput placeholder="" required formControlName="username">
+                <mat-icon matSuffix>badge</mat-icon>
+              </mat-form-field>
+            </div>
 
-            <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
-              <mat-label>Senha</mat-label>
-              <input matInput [type]="hide ? 'password' : 'text'">
-              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
-              </button>
-            </mat-form-field>
+            <!-- senha -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
+                <mat-label>Senha</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" formControlName="senha">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                  <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+              </mat-form-field>
+            </div>
 
-            <mat-form-field appearance="outline" style="width: 300px;" style="float: left; margin-left: 5px;">
-              <mat-label>
-                Nome
-              </mat-label>
-              <input matInput placeholder="" required>
-              <mat-icon matSuffix>assignment_ind</mat-icon>
-            </mat-form-field>
-          </div>
+            <!-- email -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="sam.porter@bridges.com" [formControl]="email" required  formControlName="email"/>
+                <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                <mat-icon matSuffix>email</mat-icon>
+              </mat-form-field>
+            </div>
 
-          <!-- campo 3 -->
-          <div class="card-container">
-            <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
-              <mat-label>CPF</mat-label>
-              <input matInput placeholder="" maxlength="11" required>
-              <mat-icon matSuffix>label</mat-icon>
-            </mat-form-field>
+            <!-- cpf -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
+                <mat-label>CPF</mat-label>
+                <input matInput placeholder="" maxlength="11" required formControlName="cpf">
+                <mat-icon matSuffix>label</mat-icon>
+              </mat-form-field>
+            </div>
 
-            <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
-              <mat-label>Email</mat-label>
-              <input matInput placeholder="sam.porter@bridges.com" [formControl]="email" required/>
-              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-              <mat-icon matSuffix>email</mat-icon>
-            </mat-form-field>
-          </div>
+            <!-- data de nascimento -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
+                <mat-label>Data de Nascimento</mat-label>
+                <input matInput placeholder="" required formControlName="nascimento">
+                <mat-icon matSuffix>label</mat-icon>
+              </mat-form-field>
+            </div>
 
-          <!-- campo 4 -->
-          <div class="card-container">
+            <!-- sexo -->
+            <div class="form-group">
+              <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
+                <mat-label>Sexo</mat-label>
+                <mat-select required formControlName="sexo">
+                  <mat-option value="Masculino">Masculino</mat-option>
+                  <mat-option value="Feminino">Feminino</mat-option>
+                  <mat-option value="Outro">Outro</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
 
-          </div>
+            <!-- campo de atuação -->
+            <!-- <div class="form-group">
+              <mat-form-field appearance="outline" style="float: left; margin-left: 5px; width: 300px;" >
+                <mat-label>Campo de atuação</mat-label>
+                <input matInput placeholder="" required>
+                <mat-icon matSuffix>label</mat-icon>
+              </mat-form-field>
+            </div> -->
 
-          <!-- campo 5 -->
-          <div class="card-container">
-            <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
-              <mat-label>Data de Nascimento</mat-label>
-              <input matInput placeholder="" required>
-              <mat-icon matSuffix>label</mat-icon>
-            </mat-form-field>
-
-            <mat-form-field appearance="outline" style="width: 300px;"  style="float: left; margin-left: 5px;">
-              <mat-label>Sexo</mat-label>
-              <mat-select>
-                <mat-option value="Masculino">Masculino</mat-option>
-                <mat-option value="Feminino">Feminino</mat-option>
-                <mat-option value="Outro">Outro</mat-option>
-              </mat-select>
-            </mat-form-field>
-          </div>
-          <!--
-          <div class="card-container">
-            <mat-form-field appearance="outline">
-              <mat-label>Choose a date</mat-label>
-              <input matInput [matDatepicker]="picker" required/>
-              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-              <mat-datepicker #picker></mat-datepicker>
-            </mat-form-field>
-          </div> -->
-
-          <!-- campo 7 -->
-          <div class="card-container">
-            <mat-form-field appearance="outline" style="float: left; margin-left: 5px; width: 300px;" >
-              <mat-label>Campo de atuação</mat-label>
-              <input matInput placeholder="" required>
-              <mat-icon matSuffix>label</mat-icon>
-            </mat-form-field>
-          </div>
-
-          <div class="card-container">
             <button mat-button class="button-login" color="primary">
               Cadastrar
             </button>
-          </div>
+          </form>
 
           <a>Tem uma conta?</a>
 
