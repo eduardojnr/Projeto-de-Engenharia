@@ -22,13 +22,30 @@ public class Usuario {
 	private String cpf;
 	private String dataDeNascimento;
 	private String sexo;
-	
+	private int tipoDePerfil;
 	//private String campoDeAtuacao;
+	
+	public Usuario(long id, String nome, String username, String senha, String email, String cpf,
+			String dataDeNascimento, String sexo, int tipoDePerfil) {
+		this.id = id;
+		this.nome = nome;
+		this.username = username;
+		this.senha = senha;
+		this.email = email;
+		this.cpf = cpf;
+		this.dataDeNascimento = dataDeNascimento;
+		this.sexo = sexo;
+		this.tipoDePerfil = tipoDePerfil;
+	}
+	
+	public Usuario() {
+		
+	}
 	
 	public long getId() {
 		return id;
 	}
-	
+
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -89,6 +106,8 @@ public class Usuario {
 		this.sexo = sexo;
 	}
 	
+	
+	
 	/*
 	public String getCampoDeAtuacao() {
 		return campoDeAtuacao;
@@ -99,7 +118,15 @@ public class Usuario {
 	}
 	*/
 
-    @Override
+	public int getTipoDePerfil() {
+		return tipoDePerfil;
+	}
+
+	public void setTipoDePerfil(int tipoDePerfil) {
+		this.tipoDePerfil = tipoDePerfil;
+	}
+
+	@Override
     public int hashCode() {
         int hash = 7;
         hash = 47 * hash + Objects.hashCode(this.id);
