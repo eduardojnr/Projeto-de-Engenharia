@@ -185,11 +185,13 @@ RELATÓRIO
 
 ****************************************
 
-# Insights dos colaboradores
+### Insights dos colaboradores
 
 ## Commits
 
 Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https://github.com/eduardojnr/Projeto-de-Engenharia/commits/main?after=1226c7f455d6b5f63acb97eaf6bee8800ab0a441+69&amp;branch=main).
+
+# 29/09 a 13/10
 
 ![Commits do repositório](https://i.imgur.com/mXWfcMb.png)
 
@@ -199,16 +201,26 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 
 ![Commits Eduardo e Sebastião Vitor](https://i.imgur.com/bfGjO5h.png)
 
-## Sprints e Tarefas
+# 13/10 a 27/10
 
-As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
+![Commits do repositório](https://i.imgur.com/icYgv1h.png)
 
-- Fazer os casos de uso UML
-- Documentação de acesso para cada perfil
-- Prototipar menu do sistema
-- Prototipar tela inicial
-- Subir front-end na web
-- Subir back-end na web
+![Commits](https://i.imgur.com/gI1HCq6.png)
+
+![Commits](https://i.imgur.com/g7QxRTJ.png)
+
+![Commits](https://i.imgur.com/pnRbFtt.png)
+
+# Sprints e Tarefas
+
+## As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
+
+- Fazer os casos de uso UML;
+- Documentação de acesso para cada perfil;
+- Prototipar menu do sistema;
+- Prototipar tela inicial;
+- Subir front-end na web;
+- Subir back-end na web.
 
 ![Tela de Login](https://i.imgur.com/FHFwFXLh.jpg)
 
@@ -217,3 +229,13 @@ As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
 Dashboard da secretária
 
 ![Dashboard Secretária](https://i.imgur.com/wLo0M8W.png)
+
+## As tarefas desenvolvidas entre os dias 13/10 e 27/10 foram:
+
+- Ajustar conexão entre back e front;
+- Criar serviço para cadastrar novos usuários;
+- Alinha tela de cadastro com banco de dados;
+- Atualizar relatório;
+- Documentar controle de perfis;
+- Documentação do relatório no github;
+- Implementar as classes da tela pesquisador.
