@@ -28,10 +28,12 @@ export class LoginComponent implements OnInit {
 
   login() {
     this.authService.autenticar(this.username, this.senha).subscribe(() => {
+      console.log("login autorizado");
       this.router.navigate(['home']);
     },
-    (error: any) => {
+    (error) => {
       alert("Usuario ou senha invalida");
+      console.log("login não autorizado");
       console.log(error);
     })
   }
