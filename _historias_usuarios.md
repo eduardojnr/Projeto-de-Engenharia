@@ -1,6 +1,5 @@
 # Cenários
 
-## Pesquisador
 ### Variáveis
 
 String: nome  
@@ -12,7 +11,11 @@ data de nascimento
 Check: Sexo  
 Check: Campo de atuação  
 
-### Cenários
+------------------------------------------------------------------
+
+## Usuário
+### Cadastro
+
 Cenário:
 Dado que eu clique em cadastro de pesquisador  
 Quando eu digitar o  ```Nome```  
@@ -80,3 +83,28 @@ E digite a ```12/03/2001``` como data
 E selecione o ```Masculino``` como sexo  
 E digite o ```Ciências Biológicas``` como campo de atuação  
 Então o sistema irá retornar uma tela de Cadastro não Efetuado Motivo, **Username** já cadastrado  
+
+## Login
+
+Cenário:
+Dado que eu clique em login na tela inicial  
+Quando eu digitar o  ```Username```  
+E digite a ```Senha```  
+Então o sistema irá retornar uma tela de Login efetuado com sucesso / Erro ao efetuar o login **Motivo**  
+
+------------------------------------------------------------------
+
+Cenário de aceite:  
+Dado que eu clique em login na tela inicial  
+Quando eu digitar o  ```johnnyS```  
+E digite a ```scrum123```  
+Então o sistema irá retornar uma tela de Login efetuado com sucesso  
+
+------------------------------------------------------------------
+
+Cenário de **NÃO** aceite (1):  
+Dado que eu clique em login na tela inicial  
+Quando eu digitar o  ```angelo```  
+E digite a ```angelo123```  
+Então o sistema irá retornar uma tela de Erro ao efetuar o login **Usuário não cadastrado**  
+
