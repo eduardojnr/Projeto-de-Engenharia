@@ -22,11 +22,11 @@ public class Usuario {
 	private String cpf;
 	private String dataDeNascimento;
 	private String sexo;
-	private int tipoDePerfil;
+	private String tipoDePerfil;
 	//private String campoDeAtuacao;
 	
 	public Usuario(long id, String nome, String username, String senha, String email, String cpf,
-			String dataDeNascimento, String sexo, int tipoDePerfil) {
+			String dataDeNascimento, String sexo, String tipoDePerfil) {
 		this.id = id;
 		this.nome = nome;
 		this.username = username;
@@ -118,11 +118,11 @@ public class Usuario {
 	}
 	*/
 
-	public int getTipoDePerfil() {
+	public String getTipoDePerfil() {
 		return tipoDePerfil;
 	}
 
-	public void setTipoDePerfil(int tipoDePerfil) {
+	public void setTipoDePerfil(String tipoDePerfil) {
 		this.tipoDePerfil = tipoDePerfil;
 	}
 
