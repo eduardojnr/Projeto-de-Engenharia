@@ -14,14 +14,13 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 
 ### Secretária
 - Tela para atualização de cadastro
-- Tela para validar novos cadastros de pesquisadores
 - Tela para analisar todos os dados dos pesquisadores
-- Tela para analisar todos protocolos 
--- Protocolos em espera
--- Protocolos em análise
--- Protocolos Aprovados
--- Protocolos Reprovados
--- Protocolos em aguardo de decisão do presidente
+- Tela para analisar todos protocolos  
+-- Protocolos em espera  
+-- Protocolos em análise  
+-- Protocolos Aprovados  
+-- Protocolos Reprovados  
+-- Protocolos em aguardo de decisão do presidente  
 
 ### Presidente
 - Tela para atualização de cadastro
