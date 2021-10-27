@@ -26,7 +26,7 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioService usuarioService;
 	
-	//Retorna uma lista de Usuários
+	//Retorna uma lista de usuários
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	@ApiOperation(value="Retorna uma lista de Usuários")
 	public ResponseEntity<?> listaUsuarios(){

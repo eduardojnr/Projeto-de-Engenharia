@@ -25,7 +25,7 @@ public class ProtocoloController {
 	@Autowired
 	private ProtocoloService protocoloService;
 	
-	//Retorna uma lista de Protocolos
+	//Retorna uma lista de protocolos
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	@ApiOperation(value="Retorna uma lista de Protocolos")
 	public ResponseEntity<?> listaProtocolos(){

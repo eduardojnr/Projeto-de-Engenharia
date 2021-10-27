@@ -21,7 +21,7 @@ public class Protocolo {
 	private String resumoEn;
     private String dataInicio;
     private String dataFim;
-    private List<Especie> especie_info;
+    //private List<Especie> especie_info;
     private String status;
 	
     public long getId() {
@@ -79,7 +79,7 @@ public class Protocolo {
     public void setDataFim(String dataFim) {
 		this.dataFim = dataFim;
 	}
-	
+	/*
     public List<Especie> getEspecie_info() {
 		return especie_info;
 	}
@@ -87,7 +87,7 @@ public class Protocolo {
     public void setEspecie_info(List<Especie> especie_info) {
 		this.especie_info = especie_info;
 	}
-	
+	*/
     public String getStatus() {
 		return status;
 	}
