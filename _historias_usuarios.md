@@ -3,13 +3,13 @@
 ### Variáveis
 
 String: nome  
-Username  
+String: Username  
 String: senha  
-cpf  
+String: cpf  
 String: e-mail  
-data de nascimento  
-Check: Sexo  
-Check: Campo de atuação  
+String: data de nascimento  
+String: Sexo  
+
 
 ------------------------------------------------------------------
 
