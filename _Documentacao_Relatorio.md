@@ -147,6 +147,44 @@ RELATÓRIO
 
 • Guilherme Vieira fez ajustes no Front-end, criou a tela de recuperação de senha, alterações na tela de cadastro.
 
+# 21/10/2021
+
+• Vitor Costa realizou atualizações nos arquivos _pom, SceappAplicattion, SwaggerConfig, UsuarioController, Usuario, UsuarioRepository, UsuarioService, application.properties._
+
+# 22/10/2021
+
+• Vitor Costa realizou atualizações nos arquivos _SceappApplication, UsuarioController, Usuario, PerfilEnumerador, UsuarioRepository, UsuarioService._
+
+# 24/10/2021
+
+• Vitor Costa implementou os métodos mapping.
+
+# 25/10/2021
+
+• Vitor Costa implementou atualizações nos arquivos _LoginController, DadosLogin, UsuarioRepository_ e _LoginService;_
+
+• Johnny William realizou atualizações no relatório e na documentação.
+
+# 26/10/2021
+
+• Kledyson Goes atualizou o serviço de login;
+
+• Sebastião Vitor adicionou atributos de perfil e trocou o tipo do perfil para String;
+
+• Johnny William realizou atualizações no relatório e na documentação;
+
+• Guilherme Vieira realizou ajustes na tela de recuperação de senha;
+
+• Vitor Costa realizou atualizações em _HomeController, ProtocoloController, UsuarioController, Protocolo, application.properties, Especie, Protocolo Repository, ProtocoloService._
+
+# 27/10/2021
+
+• Kledyson Goes aprimorou a integração entre a tela de cadastro e o banco de dados;
+
+• Johnny William realizou alterações na documentação.
+
+****************************************
+
 # Insights dos colaboradores
 
 ## Commits
