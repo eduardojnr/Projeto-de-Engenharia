@@ -232,9 +232,8 @@ Dashboard da secretária
 
 ## As tarefas desenvolvidas entre os dias 13/10 e 27/10 foram:
 
-- Ajustar conexão entre back e front;
 - Criar serviço para cadastrar novos usuários;
-- Alinha tela de cadastro com banco de dados;
+- Alinhar tela de cadastro com banco de dados;
 - Atualizar relatório;
 - Documentar controle de perfis;
 - Documentação do relatório no github;
