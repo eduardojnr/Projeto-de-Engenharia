@@ -4,6 +4,8 @@ import { NovoUsuarioService } from 'src/app/service/novo-usuario.service';
 import { PesquisadorService } from 'src/app/service/pesquisador.service';
 import { NovoUsuario } from 'src/app/objects/novo-usuario';
 import { Router } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogComponent } from './dialog/dialog.component';
 
 @Component({
   selector: 'app-cadastro',
@@ -30,7 +32,8 @@ export class CadastroComponent implements OnInit {
     private formBuilder: FormBuilder,
     private novoUsuarioService: NovoUsuarioService,
     public pesquisadorService: PesquisadorService,
-    private router: Router
+    private router: Router,
+    public dialog: MatDialog
   ) { }
 
   ngOnInit(): void {
@@ -50,7 +53,7 @@ export class CadastroComponent implements OnInit {
     if (this.cadastroForm.valid) {
       const novoUsuario = this.cadastroForm.getRawValue() as NovoUsuario;
       this.novoUsuarioService.cadastraNovoUsuario(novoUsuario).subscribe(() => {
-        alert("Usuário Cadastrado com Sucesso");
+        this.dialog.open(DialogComponent)
         this.router.navigate(['']);
       })
       console.log("usuário cadastrado com sucesso");
@@ -64,3 +67,4 @@ export class CadastroComponent implements OnInit {
 
 export class GridListOverviewExample {}
 export class DatepickerOverviewExample {}
+export class CadastroDialog {}

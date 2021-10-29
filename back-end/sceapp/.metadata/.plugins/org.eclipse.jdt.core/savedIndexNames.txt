@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+E:\Developer\Projetos\Faculdade\Projeto-de-Engenharia\backend\sceapp\.metadata\.plugins\org.eclipse.jdt.core
+1067094681.index

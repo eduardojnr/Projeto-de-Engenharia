@@ -20,12 +20,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
+import { MatDialogModule } from '@angular/material/dialog';
+
 import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
 
 import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
 import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.component';
 import { ToolbarLogadoComponent } from './components/toolbar-logado/toolbar-logado.component';
-import { MatToolbarModule } from '@angular/material/toolbar'
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { DialogComponent } from './screens/cadastro/dialog/dialog.component'
 
 @NgModule({
   declarations: [
@@ -35,7 +38,8 @@ import { MatToolbarModule } from '@angular/material/toolbar'
     RecuperacaoSenhaComponent,
     MenuSimplesComponent,
     TelaInicialComponent,
-    ToolbarLogadoComponent
+    ToolbarLogadoComponent,
+    DialogComponent
   ],
   imports: [
     HttpClientModule,
@@ -52,7 +56,8 @@ import { MatToolbarModule } from '@angular/material/toolbar'
     MatGridListModule,
     MatDatepickerModule,
     MatSelectModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatDialogModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent]
