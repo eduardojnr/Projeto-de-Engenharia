@@ -1,8 +1,14 @@
 
 Documento sujeito a modificações de acordo a decisão da equipe.
+# Perfis
+- [Pesquisador Explained](#pesquisador)
+- [Secretária Explained](#secretaria)
+- [Presidente Explained](#presidente)
+- [Administrador Explained](#adm)
 
 ## Telas de acesso para cada perfil
 
+<a name="pesquisador"></a>
 ### Pesquisador
 1. Tela para atualização de cadastro (Épico 3 História 2)  
 -> Aqui será uma tela para atualização dos dados do usuário
@@ -27,6 +33,7 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 #### 2.2 Protocolos que foram designados (Épico 3 História 5)    
 -> Protocolos em que o usuário for designado como parecerista
 
+<a name="secretaria"></a>
 ### Secretária
 #### 1. Tela para atualização de cadastro
 -> Aqui será uma tela para atualização dos dados do usuário
@@ -85,12 +92,13 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 
 
 
-
+<a name="presidente"></a>
 ### Presidente
 1. Tela para atualização de cadastro
 2. Todas telas que ``PESQUISADOR`` tem
 3. Tela para analisar protocolos em estado final de votação ( EMPATE )
 
+<a name="adm"></a>
 ### Administrador
 1. Tela para listar todos os usuários do sistema
 2. Tela para gerenciar todos usuários do sistema
