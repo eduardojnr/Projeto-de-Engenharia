@@ -15,6 +15,7 @@ import { DialogComponent } from './dialog/dialog.component';
 export class CadastroComponent implements OnInit {
 
   cadastroForm!: FormGroup;
+  public showSplash: boolean = false;
 
   // validar email
   email = new FormControl('', [Validators.required, Validators.email]);
@@ -51,8 +52,10 @@ export class CadastroComponent implements OnInit {
 
   cadastrar() {
     if (this.cadastroForm.valid) {
+      this.showSplash = true;
       const novoUsuario = this.cadastroForm.getRawValue() as NovoUsuario;
       this.novoUsuarioService.cadastraNovoUsuario(novoUsuario).subscribe(() => {
+        // this.reloadPage();
         this.dialog.open(DialogComponent)
         this.router.navigate(['']);
       })
@@ -61,6 +64,10 @@ export class CadastroComponent implements OnInit {
 
     }
 
+  }
+
+  reloadPage(): void {
+    window.location.reload();
   }
 
 }

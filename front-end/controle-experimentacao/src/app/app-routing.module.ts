@@ -9,13 +9,15 @@ import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.compon
 
 //Componentes
 import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
+import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'cadastro', component: CadastroComponent },
   { path: '', component: LoginComponent },
   { path: 'recovery', component: RecuperacaoSenhaComponent },
-  { path: 'home', component: TelaInicialComponent }
+  { path: 'home', component: TelaInicialComponent },
+  { path: 'splash', component: SplashScreenComponent }
 ];
 
 @NgModule({

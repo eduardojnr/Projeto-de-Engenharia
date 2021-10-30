@@ -1,5 +1,8 @@
 <app-menu-simples></app-menu-simples>
 
+<!-- irá exibir splash de carregamento caso o formulario seja valido e cadastrado -->
+<app-splash-screen  *ngIf="showSplash == true"></app-splash-screen>
+
 <div class="card-container">
 
   <mat-card class="login-card">
@@ -101,7 +104,7 @@
                 <mat-icon matSuffix>label</mat-icon>
               </mat-form-field>
             </div> -->
-
+            <!-- <mat-progress-bar mode="indeterminate" *ngIf="showLoading == true"></mat-progress-bar> -->
             <button mat-button class="button-login" color="primary">
               Cadastrar
             </button>

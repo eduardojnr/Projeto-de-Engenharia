@@ -21,6 +21,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatProgressBarModule } from '@angular/material/progress-bar'
 
 import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
 
@@ -28,7 +29,8 @@ import { MenuSimplesComponent } from './components/menu-simples/menu-simples.com
 import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.component';
 import { ToolbarLogadoComponent } from './components/toolbar-logado/toolbar-logado.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { DialogComponent } from './screens/cadastro/dialog/dialog.component'
+import { DialogComponent } from './screens/cadastro/dialog/dialog.component';
+import { SplashScreenComponent } from './components/splash-screen/splash-screen.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { DialogComponent } from './screens/cadastro/dialog/dialog.component'
     MenuSimplesComponent,
     TelaInicialComponent,
     ToolbarLogadoComponent,
-    DialogComponent
+    DialogComponent,
+    SplashScreenComponent
   ],
   imports: [
     HttpClientModule,
@@ -57,7 +60,8 @@ import { DialogComponent } from './screens/cadastro/dialog/dialog.component'
     MatDatepickerModule,
     MatSelectModule,
     MatToolbarModule,
-    MatDialogModule
+    MatDialogModule,
+    MatProgressBarModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent]
