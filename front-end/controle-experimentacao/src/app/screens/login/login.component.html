@@ -1,19 +1,22 @@
 <app-menu-simples></app-menu-simples>
 
-<div class="card-container">
+<div class="card-central">
 
-  <mat-card class="login-card">
-    <mat-grid-list cols="2" rowHeight="750px">
-      <mat-grid-tile class="card-part-1">
-        <img src="../../../assets/icons/png/experiment.png">
-        <!-- <h1>SCEAPP</h1> -->
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <div class="content" role="main">
+  <mat-grid-list cols="2" rowHeight="750px">
+    <mat-grid-tile class="card-left">
+      <div class="bem-vindo">
+        <div class="bv2">
+          <img src="../../../assets/icons/png/experiment.png" class="icon-bv">
+          <h1 class="title-text">Sistema de Controle de Experimentação em Animais</h1>
+        </div>
+      </div>
+    </mat-grid-tile>
 
+    <mat-grid-tile class="card-right">
+      <mat-card class="form-login">
         <div class="card-container">
           <h2>
-            Olá, Seja bem-vindo
+            Olá, Seja bem-vindo 👋👋
           </h2>
         </div>
 
@@ -49,6 +52,84 @@
             ></app-mensagem> -->
           </div>
 
+          <div class="recovery-button">
+            <mat-chip-list class="recovery-button">
+              <mat-chip class="recovery-button" [routerLink]="['/recovery']" routerLinkActiver="router-link-active">
+                Esqueci minha senha
+              </mat-chip>
+            </mat-chip-list>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary btn-block"
+            [disabled]="loginForm.invalid"
+          >
+            Login
+          </button>
+          <button
+            class="btn btn-primary btn-block"
+            [routerLink]="['/cadastro']"
+            routerLinkActive="router-link-active"
+          >
+            Criar conta
+          </button>
+        </form>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</div>
+
+<!-- <div class="card-container">
+
+  <mat-card class="login-card">
+    <mat-grid-list cols="2" rowHeight="750px">
+      <mat-grid-tile class="card-part-1">
+        <img src="../../../assets/icons/png/experiment.png">
+        <h1>SCEAPP</h1>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div class="content" role="main">
+
+        <div class="card-container">
+          <h2>
+            Olá, Seja bem-vindo
+          </h2>
+        </div>
+
+        <form class="form mt-4" (ngSubmit)="login()" #loginForm="ngForm">
+          <div class="form-group">
+            <input
+              class="form-control"
+              placeholder="Nome do usuário"
+              [(ngModel)]="username"
+              name="username"
+              #campoUsername="ngModel"
+              required
+            />
+            <app-mensagem
+              *ngIf="campoUsuario.invalid && campoUsuario.touched"
+              mensagem="Usuário obrigatório"
+            ></app-mensagem>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Senha"
+              [(ngModel)]="senha"
+              name="senha"
+              #campoSenha="ngModel"
+              required
+            />
+            <app-mensagem
+              *ngIf="campoSenha.invalid && campoSenha.touched"
+              mensagem="Senha obrigatória"
+            ></app-mensagem>
+          </div>
+
           <button
             type="submit"
             class="btn btn-primary btn-block"
@@ -58,35 +139,6 @@
           </button>
         </form>
 
-        <!-- <form (ngSubmit)="login()">
-          <div class="form-group">
-            <mat-form-field appearance="outline" style="width: 300px;">
-              <mat-label>
-                Username
-              </mat-label>
-              <input matInput placeholder="" type="text" class="form-control" name="username" [(ngModel)]="user.username" required #username="ngModel">
-              <mat-icon matSuffix>badge</mat-icon>
-            </mat-form-field>
-          </div>
-
-          <div class="form-group">
-            <mat-form-field appearance="outline" style="width: 300px;">
-              <mat-label>Senha</mat-label>
-              <input matInput [type]="hide ? 'password' : 'text'" class="form-control" name="senha" [(ngModel)]="user.senha" required #senha="ngModel">
-              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
-              </button>
-            </mat-form-field>
-          </div>
-
-          <a [routerLink]="['/recovery']" routerLinkActive="router-link-active" >Esqueci minha senha</a>
-
-          <div class="form-group" [routerLink]="['/home']" routerLinkActive="router-link-active">
-            <button mat-button class="button-login" color="primary">
-              Login
-            </button>
-          </div>
-        </form> -->
 
         <a>Não tem uma conta?</a>
 
@@ -103,6 +155,6 @@
     </mat-grid-list>
   </mat-card>
 
-</div>
+</div> -->
 
 
