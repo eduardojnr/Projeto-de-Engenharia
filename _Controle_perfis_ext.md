@@ -16,7 +16,7 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 
 #### 2. Tela protocolo  
 
-#### 2.2 Emissão de protocolo  (Épico 3 História 3) | **POST**
+#### 2.1 Emissão de protocolo  (Épico 3 História 3) | **POST**
 -> Uma tela onde será feito um novo protocolo para emissão onde serão digitados: Justificativa para uso dos animais, Resumo do trabalho em português, Resumo do trabalho em inglês, Data prevista para início do experimento, Data prevista para término do experimento, Quantidade de animais de cada espécie e suas proveniências.  
 
 #### 2.2 Verificar status protocolo (Épico 3 História 4)  | **GET (passando usuário como pesquisa)**
