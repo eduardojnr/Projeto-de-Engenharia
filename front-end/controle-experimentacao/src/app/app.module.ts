@@ -31,7 +31,9 @@ import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.compon
 import { ToolbarLogadoComponent } from './components/toolbar-logado/toolbar-logado.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { DialogComponent } from './screens/cadastro/dialog/dialog.component';
-import { SplashScreenComponent } from './components/splash-screen/splash-screen.component'
+import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
+import { MensagemComponent } from './components/mensagem/mensagem.component';
+import { DialogLoginComponent } from './screens/login/dialog-login/dialog-login.component'
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { SplashScreenComponent } from './components/splash-screen/splash-screen.
     TelaInicialComponent,
     ToolbarLogadoComponent,
     DialogComponent,
-    SplashScreenComponent
+    SplashScreenComponent,
+    MensagemComponent,
+    DialogLoginComponent
   ],
   imports: [
     HttpClientModule,

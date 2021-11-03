@@ -15,8 +15,8 @@
     <mat-grid-tile class="card-right">
       <mat-card class="form-login">
         <div class="card-container">
-          <h2 class="texto-p">
-            Olá, Seja bem-vindo 👋👋
+          <h2 class="texto-b">
+            Olá, seja bem-vindo 👋👋
           </h2>
         </div>
 
@@ -30,10 +30,10 @@
               #campoUsername="ngModel"
               required
             />
-            <!-- <app-mensagem
-              *ngIf="campoUsuario.invalid && campoUsuario.touched"
+            <app-mensagem
+              *ngIf="campoUsername.invalid && campoUsername.touched"
               mensagem="Usuário obrigatório"
-            ></app-mensagem> -->
+            ></app-mensagem>
           </div>
 
           <div class="form-group">
@@ -46,10 +46,10 @@
               #campoSenha="ngModel"
               required
             />
-            <!-- <app-mensagem
+            <app-mensagem
               *ngIf="campoSenha.invalid && campoSenha.touched"
               mensagem="Senha obrigatória"
-            ></app-mensagem> -->
+            ></app-mensagem>
           </div>
 
           <div class="recovery-button">

@@ -4,6 +4,8 @@ import { Router } from '@angular/router';
 import { AutenticacaoService } from 'src/app/autenticacao/autenticacao.service';
 import { AuthService } from '../../service/auth.service';
 import { TokenStorageService } from '../../service/token-storage.service';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogLoginComponent } from './dialog-login/dialog-login.component';
 
 @Component({
   selector: 'app-login',
@@ -16,23 +18,35 @@ export class LoginComponent implements OnInit {
 
   username = '';
   senha = '';
+  tipoDePerfil = '';
 
   // user: any = {
   //   username: '',
   //   senha: '',
   // }
 
-  constructor(private authService: AutenticacaoService, private router: Router) {}
+  constructor(
+    private authService: AutenticacaoService,
+    private router: Router,
+    public dialog: MatDialog
+    ) {}
 
   ngOnInit(): void { }
 
   login() {
     this.authService.autenticar(this.username, this.senha).subscribe(() => {
       console.log("login autorizado");
-      this.router.navigate(['home']);
+      if (this.tipoDePerfil == 'pesquisador') {
+        this.router.navigate(['home']);
+        console.log('pesquisador logou')
+      }
+      if (this.tipoDePerfil == 'secretaria') {
+        this.router.navigate(['home']);
+        console.log('secretaria logou')
+      }
     },
     (error) => {
-      alert("Usuario ou senha invalida");
+      this.dialog.open(DialogLoginComponent);
       console.log("login não autorizado");
       console.log(error);
     })

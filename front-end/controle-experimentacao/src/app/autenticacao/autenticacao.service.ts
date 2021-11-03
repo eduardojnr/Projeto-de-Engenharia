@@ -7,11 +7,11 @@ import { Observable } from 'rxjs';
 })
 export class AutenticacaoService {
 
-  constructor(private httpClient: HttpClient) { }
-  autenticar(username: string, senha: string): Observable<HttpResponse<any>> {
+  constructor (private httpClient: HttpClient) { }
+  autenticar (username: string, senha: string): Observable<any> {
     return this.httpClient.post('https://safe-beach-16522.herokuapp.com/https://sceapp01.herokuapp.com/login/', {
       username: username,
-      senha: senha
+      senha: senha,
     },
     { observe: 'response' }
     );
