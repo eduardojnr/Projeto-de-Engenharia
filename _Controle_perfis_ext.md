@@ -20,7 +20,7 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 -> Uma tela onde será feito um novo protocolo para emissão onde serão digitados: Justificativa para uso dos animais, Resumo do trabalho em português, Resumo do trabalho em inglês, Data prevista para início do experimento, Data prevista para término do experimento, Quantidade de animais de cada espécie e suas proveniências.  
 
 #### 2.2 Verificar status protocolo (Épico 3 História 4)   
--> Esta tela listará todos os procolocos e consequentemente o status dos mesmos. Exemplo de exibição:  
+-> Esta tela listará todos os procolocos e consequentemente o status dos mesmos **(Do pesquisador)** . Exemplo de exibição:  
 
 |ID|Nome|Status|
 |--------|---------|-------|
