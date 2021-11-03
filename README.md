@@ -19,6 +19,7 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="6%" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"  width="6%" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"  width="6%" />
+    <img src="https://www.alura.com.br/assets/api/cursos/512/swagger-documentando-apis.png"  width="6%" />
   </a>  
 </div>
 
