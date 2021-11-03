@@ -1,7 +1,5 @@
 package com.sceapp.domain;
 
-import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -21,10 +19,9 @@ public class Protocolo {
 	private String resumoEn;
     private String dataInicio;
     private String dataFim;
-    //private List<Especie> especie_info;
     private String status;
-	
-    public long getId() {
+
+	public long getId() {
 		return id;
 	}
 	
@@ -79,15 +76,7 @@ public class Protocolo {
     public void setDataFim(String dataFim) {
 		this.dataFim = dataFim;
 	}
-	/*
-    public List<Especie> getEspecie_info() {
-		return especie_info;
-	}
 	
-    public void setEspecie_info(List<Especie> especie_info) {
-		this.especie_info = especie_info;
-	}
-	*/
     public String getStatus() {
 		return status;
 	}

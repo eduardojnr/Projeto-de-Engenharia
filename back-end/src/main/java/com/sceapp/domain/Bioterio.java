@@ -7,8 +7,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="TB_ESPECIE")
-public class Especie {
+@Table(name="TB_BIOTERIO")
+public class Bioterio {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -29,5 +29,5 @@ public class Especie {
 	
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
+	}	
 }

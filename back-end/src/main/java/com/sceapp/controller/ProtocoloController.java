@@ -25,7 +25,7 @@ public class ProtocoloController {
 	@Autowired
 	private ProtocoloService protocoloService;
 	
-	//Retorna uma lista de protocolos
+	//Retorna uma lista de Protocolos
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	@ApiOperation(value="Retorna uma lista de Protocolos")
 	public ResponseEntity<?> listaProtocolos(){
@@ -42,9 +42,9 @@ public class ProtocoloController {
 		return ResponseEntity.ok().body(obj);
 	}
 
-	//Atualiza o status de um protocolo
+	//Atualiza um protocolo
 	@RequestMapping(value="/protocolo", method=RequestMethod.PUT)
-	@ApiOperation(value="Atualiza o status de um protocolo")
+	@ApiOperation(value="Atualiza um protocolo")
 	public ResponseEntity<?> atualizaProtocolo(@RequestBody Protocolo protocolo) {
 		Protocolo obj = protocoloService.atualizaProtocolo(protocolo);
 		return ResponseEntity.ok().body(obj);

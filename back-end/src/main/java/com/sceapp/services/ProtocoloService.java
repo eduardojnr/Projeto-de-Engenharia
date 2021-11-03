@@ -1,6 +1,7 @@
 package com.sceapp.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,14 +16,16 @@ public class ProtocoloService {
 	private ProtocoloRepository protocoloRepository;
 	
 	//OPERAÇÕES CRUD
-	public List<Protocolo> listaProtocolos(){
-		List<Protocolo> protocolos = protocoloRepository.findAll(); 
-		return protocolos;
+	public List<Protocolo> listaProtocolos() { 
+		return protocoloRepository.findAll();
+	}
+	
+	public Optional<Protocolo> listaProtocoloUnico(Long id) {
+		return protocoloRepository.findById(id);
 	}
 	
 	public Protocolo salvaProtocolo(Protocolo protocolo) {
-		Protocolo obj = protocoloRepository.save(protocolo);
-		return obj;
+		return protocoloRepository.save(protocolo);
 	}
 	
 	public Protocolo atualizaProtocolo(Protocolo protocolo) {

@@ -6,6 +6,4 @@ import com.sceapp.domain.Protocolo;
 
 public interface ProtocoloRepository extends JpaRepository<Protocolo, Long> {
 	
-	Protocolo findById(long id);
-	
 }
