@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
 
   username = '';
   senha = '';
-  tipoDePerfil = '';
+  tipoDePerfil = 'pesquisador'; //temporario, até que backend atenda essa demanda
 
   // user: any = {
   //   username: '',
@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
     this.authService.autenticar(this.username, this.senha).subscribe(() => {
       console.log("login autorizado");
       if (this.tipoDePerfil == 'pesquisador') {
-        this.router.navigate(['home']);
+        this.router.navigate(['pesquisador']);
         console.log('pesquisador logou')
       }
       if (this.tipoDePerfil == 'secretaria') {

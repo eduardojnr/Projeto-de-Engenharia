@@ -33,7 +33,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { DialogComponent } from './screens/cadastro/dialog/dialog.component';
 import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
 import { MensagemComponent } from './components/mensagem/mensagem.component';
-import { DialogLoginComponent } from './screens/login/dialog-login/dialog-login.component'
+import { DialogLoginComponent } from './screens/login/dialog-login/dialog-login.component';
+import { PesquisadorComponent } from './screens/perfil/pesquisador/pesquisador.component';
+import { AtualizarCadastroComponent } from './screens/funcionalidades/atualizar-cadastro/atualizar-cadastro.component';
+import { ProtocolosComponent } from './screens/funcionalidades/protocolos/protocolos.component'
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ import { DialogLoginComponent } from './screens/login/dialog-login/dialog-login.
     DialogComponent,
     SplashScreenComponent,
     MensagemComponent,
-    DialogLoginComponent
+    DialogLoginComponent,
+    PesquisadorComponent,
+    AtualizarCadastroComponent,
+    ProtocolosComponent
   ],
   imports: [
     HttpClientModule,

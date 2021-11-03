@@ -10,6 +10,9 @@ import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.compon
 //Componentes
 import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
 import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
+import { PesquisadorComponent } from './screens/perfil/pesquisador/pesquisador.component';
+import { ProtocolosComponent } from './screens/funcionalidades/protocolos/protocolos.component';
+import { AtualizarCadastroComponent } from './screens/funcionalidades/atualizar-cadastro/atualizar-cadastro.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -17,7 +20,10 @@ const routes: Routes = [
   { path: '', component: LoginComponent },
   { path: 'recovery', component: RecuperacaoSenhaComponent },
   { path: 'home', component: TelaInicialComponent },
-  { path: 'splash', component: SplashScreenComponent }
+  { path: 'splash', component: SplashScreenComponent },
+  { path: 'pesquisador', component: PesquisadorComponent },
+  { path: 'protocolos', component: ProtocolosComponent },
+  { path: 'atualizarCadastro', component: AtualizarCadastroComponent}
 ];
 
 @NgModule({
