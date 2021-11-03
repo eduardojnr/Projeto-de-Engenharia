@@ -28,9 +28,10 @@ public class LoginController {
 		Usuario obj = null;
 		try {
 			obj = loginService.authenticate(dados);
+			return ResponseEntity.ok().body(obj);
 		} catch (Exception e) {
 			e.printStackTrace();
+			return ResponseEntity.notFound().build();
 		}
-		return ResponseEntity.ok().body(obj);
 	}
 }
