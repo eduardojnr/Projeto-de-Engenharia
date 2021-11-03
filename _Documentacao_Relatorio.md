@@ -201,15 +201,15 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 
 ![Commits Eduardo e Sebastião Vitor](https://i.imgur.com/bfGjO5h.png)
 
-# 13/10 a 27/10
+# 13/10 a 03/11
 
-![Commits do repositório](https://i.imgur.com/icYgv1h.png)
+![Commits do repositório](https://i.imgur.com/vkO2eeD.png)
 
-![Commits](https://i.imgur.com/gI1HCq6.png)
+![Commits Johnny e Kledyson](https://i.imgur.com/tJANlMo.png)
 
-![Commits](https://i.imgur.com/g7QxRTJ.png)
+![Commits V. Costa e Guilherme](https://i.imgur.com/Re6OLsh.png)
 
-![Commits](https://i.imgur.com/pnRbFtt.png)
+![Commits Eduardo e Sebastião](https://i.imgur.com/IyhGKFj.png)
 
 # Sprints e Tarefas
 
