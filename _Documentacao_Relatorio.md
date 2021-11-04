@@ -234,7 +234,11 @@ Dashboard da secretária
 
 - Criar serviço para cadastrar novos usuários;
 - Alinhar tela de cadastro com banco de dados;
-- Atualizar relatório;
-- Documentar controle de perfis;
-- Documentação do relatório no github;
-- Implementar as classes da tela pesquisador.
+- Documentação/Relatório
+- Implementar as classes da tela pesquisador
+- Ajustar conexão entre back-end e front-end // Tela de cadastro
+- Criar tela de carregamento
+- Épico 1 - História de usuário 1
+- Épico 2 - História de usuário 1
+
+
