@@ -14,6 +14,8 @@ import { DialogComponent } from './dialog/dialog.component';
 })
 export class CadastroComponent implements OnInit {
 
+  // startDate = new Date(1990, 0, 1);
+
   cadastroForm!: FormGroup;
   public showSplash: boolean = false;
 

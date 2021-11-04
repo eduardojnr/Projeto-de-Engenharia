@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import  {MatNativeDateModule } from '@angular/material/core';
 
 import { HttpClientModule } from '@angular/common/http';
 import { authInterceptorProviders } from './helper/auth.interceptor';
@@ -73,7 +74,8 @@ import { ProtocolosComponent } from './screens/funcionalidades/protocolos/protoc
     MatToolbarModule,
     MatDialogModule,
     MatProgressBarModule,
-    MatChipsModule
+    MatChipsModule,
+    MatNativeDateModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent]

@@ -1,3 +1,105 @@
+.card-central {
+  margin-top: 48px;
+}
+
+.card-central2 {
+  margin-top: 0px;
+}
+
+// .card-left {
+
+// }
+
+.bem-vindo {
+  margin-left: 400px;
+  text-align: center;
+
+}
+
+.bv2 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.bv3 {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon-bv {
+  width: 100%;
+}
+
+.title-text {
+  margin-top: 20px;
+  font-family: 'Alfa Slab One', cursive;
+  color: #1976D2;
+}
+
+// .card-right {
+
+// }
+
+.form-login {
+  background-color: #242A32;
+  width: auto;
+  height: auto;
+  margin-right: 400px;
+  // padding: 9em;
+  // margin-top: 650px;
+}
+
+.form-login2 {
+  background-color: #242A32;
+  color: white;
+  width: auto;
+  height: auto;
+  // margin-right: 400px;
+  // padding: 9em;
+  // margin-top: 650px;
+}
+
+.recovery-button {
+  text-align: center;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.login-card {
+  margin-top: 60px;
+  background-color: #2F3848;
+  width: 90%;
+}
+
+.card-part-1 {
+  background: #2F3848;
+}
+
+mat-label {
+  color: white;
+}
+
+.button-login {
+  font-size: 30px;
+  width: 240px;
+  height: 60px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #81D2C7;
+}
+
+//Geral
+.texto-b {
+  color: white;
+}
+
+.texto-p {
+  color: black;
+}
+
 .login-card {
   margin-top: 60px;
   // background-color: #1B2A38;
@@ -33,6 +135,9 @@
   color: white;
   background-color: #81D2C7;
 }
+
+::ng-deep .mat-select-value{
+  color: white!important;  }
 
 // css temporario
 :host {
