@@ -6,7 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -21,13 +20,13 @@ public class Usuario {
 	private String senha;
 	private String email;
 	private String cpf;
-	private LocalDate dataDeNascimento;
+	private String dataDeNascimento;
 	private String sexo;
 	private String tipoDePerfil;
 	//private String campoDeAtuacao;
 	
 	public Usuario(long id, String nome, String username, String senha, String email, String cpf,
-				LocalDate dataDeNascimento, String sexo, String tipoDePerfil) {
+	String dataDeNascimento, String sexo, String tipoDePerfil) {
 		this.id = id;
 		this.nome = nome;
 		this.username = username;
@@ -91,11 +90,11 @@ public class Usuario {
 		this.cpf = cpf;
 	}
 	
-	public LocalDate getDataDeNascimento() {
+	public String getDataDeNascimento() {
 		return dataDeNascimento;
 	}
 	
-	public void setDataDeNascimento(LocalDate dataDeNascimento) {
+	public void setDataDeNascimento(String dataDeNascimento) {
 		this.dataDeNascimento = dataDeNascimento;
 	}
 	
