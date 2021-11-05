@@ -6,10 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
-import java.time.LocalDate;
-
 @Entity
 @Table(name="TB_PROTOCOLO")
 public class Protocolo {
@@ -21,10 +17,8 @@ public class Protocolo {
     private String justificativa;
 	private String resumoPt;
 	private String resumoEn;
-	@JsonFormat(pattern= "dd/MM/yyyy")
-	private LocalDate dataInicio;
-    @JsonFormat(pattern= "dd/MM/yyyy")
-	private LocalDate dataFim;
+	private String dataInicio;
+	private String dataFim;
     private String status;
 
 	public long getId() {
@@ -67,19 +61,19 @@ public class Protocolo {
 		this.resumoEn = resumoEn;
 	}
 	
-    public LocalDate getDataInicio() {
+    public String getDataInicio() {
 		return dataInicio;
 	}
 	
-    public void setDataInicio(LocalDate dataInicio) {
+    public void setDataInicio(String dataInicio) {
 		this.dataInicio = dataInicio;
 	}
 	
-    public LocalDate getDataFim() {
+    public String getDataFim() {
 		return dataFim;
 	}
 	
-    public void setDataFim(LocalDate dataFim) {
+    public void setDataFim(String dataFim) {
 		this.dataFim = dataFim;
 	}
 	
