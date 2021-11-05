@@ -6,6 +6,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -20,13 +23,14 @@ public class Usuario {
 	private String senha;
 	private String email;
 	private String cpf;
-	private String dataDeNascimento;
+	@JsonFormat(pattern="dd/MM/yyyy")
+	private LocalDate dataDeNascimento;
 	private String sexo;
 	private String tipoDePerfil;
 	//private String campoDeAtuacao;
 	
 	public Usuario(long id, String nome, String username, String senha, String email, String cpf,
-			String dataDeNascimento, String sexo, String tipoDePerfil) {
+			LocalDate dataDeNascimento, String sexo, String tipoDePerfil) {
 		this.id = id;
 		this.nome = nome;
 		this.username = username;
@@ -90,11 +94,11 @@ public class Usuario {
 		this.cpf = cpf;
 	}
 	
-	public String getDataDeNascimento() {
+	public LocalDate getDataDeNascimento() {
 		return dataDeNascimento;
 	}
 	
-	public void setDataDeNascimento(String dataDeNascimento) {
+	public void setDataDeNascimento(LocalDate dataDeNascimento) {
 		this.dataDeNascimento = dataDeNascimento;
 	}
 	
@@ -105,8 +109,6 @@ public class Usuario {
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
-	
-	
 	
 	/*
 	public String getCampoDeAtuacao() {
