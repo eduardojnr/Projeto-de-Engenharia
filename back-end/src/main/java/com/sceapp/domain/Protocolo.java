@@ -6,6 +6,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDate;
 
 @Entity
@@ -19,7 +21,9 @@ public class Protocolo {
     private String justificativa;
 	private String resumoPt;
 	private String resumoEn;
+	@JsonFormat(pattern= "dd/MM/yyyy")
 	private LocalDate dataInicio;
+    @JsonFormat(pattern= "dd/MM/yyyy")
 	private LocalDate dataFim;
     private String status;
 
