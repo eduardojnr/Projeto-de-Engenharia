@@ -6,6 +6,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import java.time.LocalDate;
+
 @Entity
 @Table(name="TB_PROTOCOLO")
 public class Protocolo {
@@ -17,8 +19,8 @@ public class Protocolo {
     private String justificativa;
 	private String resumoPt;
 	private String resumoEn;
-    private String dataInicio;
-    private String dataFim;
+	private LocalDate dataInicio;
+	private LocalDate dataFim;
     private String status;
 
 	public long getId() {
@@ -61,19 +63,19 @@ public class Protocolo {
 		this.resumoEn = resumoEn;
 	}
 	
-    public String getDataInicio() {
+    public LocalDate getDataInicio() {
 		return dataInicio;
 	}
 	
-    public void setDataInicio(String dataInicio) {
+    public void setDataInicio(LocalDate dataInicio) {
 		this.dataInicio = dataInicio;
 	}
 	
-    public String getDataFim() {
+    public LocalDate getDataFim() {
 		return dataFim;
 	}
 	
-    public void setDataFim(String dataFim) {
+    public void setDataFim(LocalDate dataFim) {
 		this.dataFim = dataFim;
 	}
 	
