@@ -26,7 +26,7 @@ public class Usuario {
 	//private String campoDeAtuacao;
 	
 	public Usuario(long id, String nome, String username, String senha, String email, String cpf,
-			String dataDeNascimento, String sexo, String tipoDePerfil) {
+	String dataDeNascimento, String sexo, String tipoDePerfil) {
 		this.id = id;
 		this.nome = nome;
 		this.username = username;
@@ -105,8 +105,6 @@ public class Usuario {
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
-	
-	
 	
 	/*
 	public String getCampoDeAtuacao() {

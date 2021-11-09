@@ -1,4 +1,4 @@
-RELATÓRIO
+## RELATÓRIO
 
 **Redigido por Eduardo Carlos (Scrum Master) e Johnny William (Product Owner)**
 
@@ -181,7 +181,37 @@ RELATÓRIO
 
 • Kledyson Goes aprimorou a integração entre a tela de cadastro e o banco de dados;
 
-• Johnny William realizou alterações na documentação.
+• Johnny William realizou alterações na documentação;
+
+• Eduardo Carlos realizou alterações na documentação.
+
+# 28/10/2021
+
+• Eduardo Carlos atualizou a documentação;
+
+• Johnny William atualizou a documentação e os cenários de secretária.
+
+# 29/10/2021
+
+• Kledyson Goes atualizou o Front-end com melhorias na interação com usuário.
+
+# 30/10/2021
+
+• Kledyson Goes adicionou uma tela de carregamento para a aplicação e fez melhorias no serviço de login.
+
+# 31/10/2021
+
+• Kledyson Goes consertou o problema de build do vercel e atualizou o visual da tela de login.
+
+# 02/10/2021
+
+• Vitor Costa realizou alterações em _Bioterio, BioterioController, BioterioRepository, EspecieRepository, EspecieController, PedidoController, ProtocoloController, Especie, Pedido, Protocolo, ProtocoloRepository, PedidoRepository_ e _BioterioService._
+
+# 03/10/2021
+
+• Kledyson Goes atualizou os serviços de login com validações etc.;
+
+• Eduardo Carlos e Johnny William atuaram atualizando a documentação do documento.
 
 ****************************************
 
@@ -230,15 +260,48 @@ Dashboard da secretária
 
 ![Dashboard Secretária](https://i.imgur.com/wLo0M8W.png)
 
-## As tarefas desenvolvidas entre os dias 13/10 e 27/10 foram:
+## As tarefas desenvolvidas entre os dias 13/10 e 03/11 foram:
+
+As tarefas desenvolvidas e entregues entre os dias 13/10 e 03/11 foram:
+
+- Subir back-end na web
+
+- Subir front-end na web
+
+- Desenvolvimento da Tela inicial
+
+- Ajustar conexão entre back-end e front-end // Tela de cadastro
 
 - Criar serviço para cadastrar novos usuários;
+
 - Alinhar tela de cadastro com banco de dados;
+
 - Documentação/Relatório
+
 - Implementar as classes da tela pesquisador
-- Ajustar conexão entre back-end e front-end // Tela de cadastro
+
 - Criar tela de carregamento
+
 - Épico 1 - História de usuário 1
+
 - Épico 2 - História de usuário 1
 
+# Telas
 
+![Tela Inicial](https://i.imgur.com/sYbDwMp.png)
+
+![Tela Cadastro](https://i.imgur.com/6VMX8L1.png) 
+
+![Recuperar Senha](https://i.imgur.com/gyMhORz.png)
+
+![Menu Pesquisador](https://i.imgur.com/04VUtFd.png)
+
+## Próxima Sprint
+
+As tarefas que serão entregues para próxima sprint serão:
+
+- Tela pesquisador
+
+- Início tela secretária
+
+- Melhorias em funções anteriores
