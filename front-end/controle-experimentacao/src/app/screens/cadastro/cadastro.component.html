@@ -75,6 +75,7 @@
                 <mat-icon style="color: white">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
               </button>
             </mat-form-field>
+            <app-mensagem *ngIf="cadastroForm.errors?.senhaIgualUsuario" mensagem="A senha deve ser diferente do usuário"></app-mensagem>
           </div>
 
           <!-- email -->

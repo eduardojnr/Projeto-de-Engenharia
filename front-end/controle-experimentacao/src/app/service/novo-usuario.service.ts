@@ -12,4 +12,8 @@ export class NovoUsuarioService {
   cadastraNovoUsuario(novoUsuario: NovoUsuario) {
     return this.http.post('https://safe-beach-16522.herokuapp.com/https://sceapp01.herokuapp.com/usuarios/usuario/', novoUsuario);
   }
+
+  // verificaUsuarioExistente(nomeUsuario: string) {
+  //   return this.http.get(``)
+  // }
 }

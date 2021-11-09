@@ -6,12 +6,16 @@ import { NovoUsuario } from 'src/app/objects/novo-usuario';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
+import { DateAdapter } from '@angular/material/core';
+import * as moment from 'moment';
+import { usuarioSenhaIguaisValidator } from './usuario-senha-iguais.validator';
 
 @Component({
   selector: 'app-cadastro',
   templateUrl: './cadastro.component.html',
   styleUrls: ['./cadastro.component.scss']
 })
+
 export class CadastroComponent implements OnInit {
 
   // startDate = new Date(1990, 0, 1);
@@ -36,8 +40,11 @@ export class CadastroComponent implements OnInit {
     private novoUsuarioService: NovoUsuarioService,
     public pesquisadorService: PesquisadorService,
     private router: Router,
-    public dialog: MatDialog
-  ) { }
+    public dialog: MatDialog,
+    // private dateAdapter: DateAdapter<Date>
+  ) {
+    // this.dateAdapter.setLocale('en-GB'); //dd/MM/yyyy
+   }
 
   ngOnInit(): void {
     this.cadastroForm = this.formBuilder.group({
@@ -49,10 +56,15 @@ export class CadastroComponent implements OnInit {
       nascimento: [''],
       sexo: [''],
       tipoDePerfil: ['pesquisador']
-    })
+    }, {
+      validators: [usuarioSenhaIguaisValidator]
+    }
+    );
   }
 
   cadastrar() {
+    let newDate: moment.Moment = moment.utc(this.cadastroForm.value.nascimento).local();
+    this.cadastroForm.value.nascimento = newDate.format("YYYY-MM-DD");
     if (this.cadastroForm.valid) {
       this.showSplash = true;
       const novoUsuario = this.cadastroForm.getRawValue() as NovoUsuario;
