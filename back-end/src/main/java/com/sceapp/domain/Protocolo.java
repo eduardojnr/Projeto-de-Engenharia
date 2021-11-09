@@ -21,12 +21,20 @@ public class Protocolo {
 	private String dataFim;
     private String status;
 
+	public Protocolo(long id, String nomeDocente, String justificativa, String resumoPt, String resumoEn,
+			String dataInicio, String dataFim, String status) {
+		this.id = id;
+		this.nomeDocente = nomeDocente;
+		this.justificativa = justificativa;
+		this.resumoPt = resumoPt;
+		this.resumoEn = resumoEn;
+		this.dataInicio = dataInicio;
+		this.dataFim = dataFim;
+		this.status = status;
+	}
+
 	public long getId() {
 		return id;
-	}
-	
-    public void setId(long id) {
-		this.id = id;
 	}
 	
     public String getNomeDocente() {
