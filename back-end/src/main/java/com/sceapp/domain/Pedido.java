@@ -18,12 +18,17 @@ public class Pedido {
 	private int quantidade;
 	private long idProtocolo;
 	
+	public Pedido(long id, long idBioterio, long idEspecie, int quantidade, long idProtocolo) {
+		super();
+		this.id = id;
+		this.idBioterio = idBioterio;
+		this.idEspecie = idEspecie;
+		this.quantidade = quantidade;
+		this.idProtocolo = idProtocolo;
+	}
+
 	public long getId() {
 		return id;
-	}
-	
-	public void setId(long id) {
-		this.id = id;
 	}
 	
 	public long getIdBioeterio() {
