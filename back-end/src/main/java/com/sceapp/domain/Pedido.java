@@ -19,7 +19,6 @@ public class Pedido {
 	private long idProtocolo;
 	
 	public Pedido(long id, long idBioterio, long idEspecie, int quantidade, long idProtocolo) {
-		super();
 		this.id = id;
 		this.idBioterio = idBioterio;
 		this.idEspecie = idEspecie;
