@@ -95,8 +95,11 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 <a name="presidente"></a>
 ### Presidente
 * 1.Tela para atualização de cadastro
+  * -> Aqui será uma tela para atualização dos dados do presidente
 * 2.Todas telas que ``PESQUISADOR`` tem
+  * Deverá possuir acesso a todas as telas que o perfil pesquisador possuir, ja que o presidente também é um pesquisador obrigatoriamente.
 * 3.Tela para analisar protocolos em estado final de votação ( EMPATE )
+* Protocolos que chegarem no processo de desempate, 1x1, o presidente fará o desempate do mesmo.
 
 <a name="adm"></a>
 ### Administrador
