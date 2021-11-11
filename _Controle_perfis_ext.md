@@ -94,16 +94,16 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 
 <a name="presidente"></a>
 ### Presidente
-1. Tela para atualização de cadastro
-2. Todas telas que ``PESQUISADOR`` tem
-3. Tela para analisar protocolos em estado final de votação ( EMPATE )
+* 1.Tela para atualização de cadastro
+* 2.Todas telas que ``PESQUISADOR`` tem
+* 3.Tela para analisar protocolos em estado final de votação ( EMPATE )
 
 <a name="adm"></a>
 ### Administrador
-1. Tela para listar todos os usuários do sistema
-2. Tela para gerenciar todos usuários do sistema
-3. Tela para cadastrar ou excluir secretária
-4. Tela para administrar cargo de presidente  
-4.1 Iniciar votação  
-4.2 Processo de votação  
-4.3 Finalizar votação  
+* 1.Tela para listar todos os usuários do sistema
+* 2.Tela para gerenciar todos usuários do sistema
+* 3.Tela para cadastrar ou excluir secretária
+* 4.Tela para administrar cargo de presidente  
+  * 4.1 Iniciar votação  
+  * 4.2 Processo de votação  
+  * 4.3 Finalizar votação  
