@@ -53,7 +53,7 @@ export class CadastroComponent implements OnInit {
       senha: [''],
       email: [''],
       cpf: [''],
-      nascimento: [''],
+      dataDeNascimento: [''],
       sexo: [''],
       tipoDePerfil: ['pesquisador']
     }, {
@@ -63,8 +63,8 @@ export class CadastroComponent implements OnInit {
   }
 
   cadastrar() {
-    let newDate: moment.Moment = moment.utc(this.cadastroForm.value.nascimento).local();
-    this.cadastroForm.value.nascimento = newDate.format("YYYY-MM-DD");
+    // let newDate: moment.Moment = moment.utc(this.cadastroForm.value.dataDeNascimento).local();
+    // this.cadastroForm.value.dataDeNascimento = newDate.format("YYYY-MM-DD");
     if (this.cadastroForm.valid) {
       this.showSplash = true;
       const novoUsuario = this.cadastroForm.getRawValue() as NovoUsuario;
