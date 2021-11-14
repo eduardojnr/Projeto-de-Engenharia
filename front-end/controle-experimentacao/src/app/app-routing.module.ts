@@ -13,6 +13,7 @@ import { SplashScreenComponent } from './components/splash-screen/splash-screen.
 import { PesquisadorComponent } from './screens/perfil/pesquisador/pesquisador.component';
 import { ProtocolosComponent } from './screens/funcionalidades/protocolos/protocolos.component';
 import { AtualizarCadastroComponent } from './screens/funcionalidades/atualizar-cadastro/atualizar-cadastro.component';
+import { TestScreensComponent } from './screens/test-screens/test-screens.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
   { path: 'splash', component: SplashScreenComponent },
   { path: 'pesquisador', component: PesquisadorComponent },
   { path: 'protocolos', component: ProtocolosComponent },
-  { path: 'atualizarCadastro', component: AtualizarCadastroComponent}
+  { path: 'atualizarCadastro', component: AtualizarCadastroComponent },
+  { path: 'test', component: TestScreensComponent }
 ];
 
 @NgModule({
