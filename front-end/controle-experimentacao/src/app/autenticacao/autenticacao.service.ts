@@ -20,10 +20,10 @@ export class AutenticacaoService {
     },
     { observe: 'response' }
     ).pipe (
-      tap ((res) => {
-        const authToken = res.headers.get('x-acess-token') ?? '';
-        this.usuarioService.salvaToken(authToken);
-      })
+      // tap ((res) => {
+      //   const authToken = res.headers.get('x-acess-token') ?? '';
+      //   this.usuarioService.salvaToken(authToken);
+      // })
     )
   }
 }

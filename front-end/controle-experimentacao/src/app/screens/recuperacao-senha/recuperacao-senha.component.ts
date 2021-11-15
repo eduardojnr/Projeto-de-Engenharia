@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-recuperacao-senha',
@@ -9,10 +9,16 @@ import { FormControl, Validators } from '@angular/forms';
 export class RecuperacaoSenhaComponent implements OnInit {
 
   email = new FormControl('', [Validators.required, Validators.email]);
+  recoveryForm!: FormGroup;
+  public showSplash: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  recuperar () {
+    console.log("hello")
   }
 
   getErrorMessage() {
