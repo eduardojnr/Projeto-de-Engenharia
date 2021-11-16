@@ -9,10 +9,13 @@
   />
   <span style="margin-left: 10px;">SCEAPP</span>
   <span class="icons-direita"></span>
+  <button mat-button *ngIf="user$ | async as user">
+    <a class="mr-1">{{ user.username }}</a>
+  </button>
   <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     <mat-icon>info</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon"  [routerLink]="['/login']" routerLinkActive="router-link-active">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon"  (click)="logout()">
     <mat-icon>logout</mat-icon>
   </button>
 </mat-toolbar>
