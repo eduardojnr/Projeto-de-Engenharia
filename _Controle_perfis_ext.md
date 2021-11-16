@@ -104,6 +104,7 @@ Documento sujeito a modificações de acordo a decisão da equipe.
 <a name="adm"></a>
 ### Administrador
 * 1.Tela para listar todos os usuários do sistema
+ * -> Verbo GET puxando todos usuários do sistema.
 * 2.Tela para gerenciar todos usuários do sistema
 * 3.Tela para cadastrar ou excluir secretária
 * 4.Tela para administrar cargo de presidente  
