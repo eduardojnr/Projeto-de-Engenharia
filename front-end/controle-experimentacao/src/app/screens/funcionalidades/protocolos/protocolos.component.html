@@ -1,13 +1,15 @@
 <app-toolbar-logado-funcionalidades></app-toolbar-logado-funcionalidades>
+<mat-toolbar color="primary">
+  <h1>Protocolos</h1>
+</mat-toolbar>
+<mat-tab-group backgroundColor="primary">
 
-<mat-card class="container-md">
-  <mat-tab-group>
+  <mat-tab label="Consulta">
 
-    <mat-tab label="Consulta">
+  </mat-tab>
 
-    </mat-tab>
-
-    <mat-tab label="Cadastro">
+  <mat-tab label="Cadastro">
+    <mat-card class="container">
       <form class="form" [formGroup]="protocoloForm" (submit)="cadastrarProtocolo()">
         <div class="row row-cols-4">
           <div class="col-auto">
@@ -28,32 +30,32 @@
             </mat-form-field>
           </div>
 
-          <div class="col-auto">
+          <div class="col-sm">
 
           </div>
 
-          <div class="col-auto">
+          <div class="col-sm">
 
           </div>
         </div>
 
         <div class="row">
-          <div class="col-auto">
-            <mat-form-field appearance="fill" style="width: 40em;">
+          <div class="col-sm">
+            <mat-form-field appearance="fill" style="width: 62em;">
               <mat-label style="color: white">Justificativa para uso dos animais</mat-label>
               <textarea matInput placeholder="Justificativa..." required formControlName="justificativa" style="color: white"></textarea>
             </mat-form-field>
           </div>
 
-          <div class="col-auto">
-            <mat-form-field appearance="fill" style="width: 40em;">
+          <div class="col-sm">
+            <mat-form-field appearance="fill" style="width: 62em;">
               <mat-label style="color: white">Resumo do trabalho em português</mat-label>
               <textarea matInput placeholder="Resumo..." required formControlName="resumoPt" style="color: white"></textarea>
             </mat-form-field>
           </div>
 
-          <div class="col-auto">
-            <mat-form-field appearance="fill" style="width: 40em;">
+          <div class="col-sm">
+            <mat-form-field appearance="fill" style="width: 62em;">
               <mat-label style="color: white">Resumo do trabalho em inglês</mat-label>
               <textarea matInput placeholder="Resumo..." required formControlName="resumoEn" style="color: white"></textarea>
             </mat-form-field>
@@ -68,7 +70,7 @@
           </div>
         </div>
       </form>
-    </mat-tab>
+    </mat-card>
+  </mat-tab>
 
-  </mat-tab-group>
-</mat-card>
+</mat-tab-group>

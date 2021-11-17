@@ -6,6 +6,7 @@ import { LoginComponent } from './screens/login/login.component';
 import { CadastroComponent } from './screens/cadastro/cadastro.component'
 import { RecuperacaoSenhaComponent } from './screens/recuperacao-senha/recuperacao-senha.component';
 import { TelaInicialComponent } from './screens/tela-inicial/tela-inicial.component';
+import { SecretariaComponent } from './screens/perfil/secretaria/secretaria.component';
 
 //Componentes
 import { MenuSimplesComponent } from './components/menu-simples/menu-simples.component';
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'pesquisador', component: PesquisadorComponent },
   { path: 'protocolos', component: ProtocolosComponent },
   { path: 'atualizarCadastro', component: AtualizarCadastroComponent },
-  { path: 'test', component: TestScreensComponent }
+  { path: 'test', component: TestScreensComponent },
+  { path: 'secretaria', component: SecretariaComponent }
 ];
 
 @NgModule({

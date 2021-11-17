@@ -40,7 +40,8 @@ import { PesquisadorComponent } from './screens/perfil/pesquisador/pesquisador.c
 import { AtualizarCadastroComponent } from './screens/funcionalidades/atualizar-cadastro/atualizar-cadastro.component';
 import { ProtocolosComponent } from './screens/funcionalidades/protocolos/protocolos.component';
 import { TestScreensComponent } from './screens/test-screens/test-screens.component';
-import { ToolbarLogadoFuncionalidadesComponent } from './components/toolbar-logado-funcionalidades/toolbar-logado-funcionalidades.component'
+import { ToolbarLogadoFuncionalidadesComponent } from './components/toolbar-logado-funcionalidades/toolbar-logado-funcionalidades.component';
+import { SecretariaComponent } from './screens/perfil/secretaria/secretaria.component'
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { ToolbarLogadoFuncionalidadesComponent } from './components/toolbar-loga
     AtualizarCadastroComponent,
     ProtocolosComponent,
     TestScreensComponent,
-    ToolbarLogadoFuncionalidadesComponent
+    ToolbarLogadoFuncionalidadesComponent,
+    SecretariaComponent
   ],
   imports: [
     HttpClientModule,
