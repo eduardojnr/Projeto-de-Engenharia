@@ -362,7 +362,7 @@ Dashboard da secretária
 
 [//]: <![Tela Consulta de Protocolo do Usuário]()>
 
-![Tela Cadastro de Protocolo](https://i.imgur.com/x5S3zN0.png)
+![Tela Cadastro de Protocolo](https://i.imgur.com/fUn0Hpo.png)
 
 [//]: <![Telas Secretária]()>
 
