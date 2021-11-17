@@ -1,9 +1,9 @@
 Documento sujeito a modificações de acordo a decisão da equipe.
 # Perfis
-- [Pesquisador Explained](#pesquisador)
-- [Secretária Explained](#secretaria)
-- [Presidente Explained](#presidente)
-- [Administrador Explained](#adm)
+- [Pesquisador Explained](https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/_Controle_perfis_ext.md#pesquisador)
+- [Secretária Explained](https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/_Controle_perfis_ext.md#secretaria)
+- [Presidente Explained](https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/_Controle_perfis_ext.md#presidente)
+- [Administrador Explained](https://github.com/eduardojnr/Projeto-de-Engenharia/blob/main/_Controle_perfis_ext.md#adm)
 
 ## Telas de acesso para cada perfil
 
