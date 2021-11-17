@@ -4,6 +4,7 @@ public class DadosLogin {
 	
 	private String username;
 	private String senha;
+	
 	public String getUsername() {
 		return username;
 	}
