@@ -1,1 +1,49 @@
-<p>Tela em desenvolvimento</p>
+<app-toolbar-logado-funcionalidades></app-toolbar-logado-funcionalidades>
+<mat-card class="container">
+  <mat-card-content class="container">
+    <div class="row justify-content-md-center">
+      <mat-card-title class="text">Atualização Cadastral</mat-card-title>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="mb-2 pb-2">
+        <mat-form-field appearance="outline" style="width: 30em;">
+          <mat-label>Senha</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" formControlName="senha" style="color: white">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon style="color: white">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="row  justify-content-md-center">
+      <div class="mb-2 pb-2">
+        <div class="mb-2 pb-2">
+          <mat-form-field appearance="outline" style="width: 30em;">
+            <mat-label>Email</mat-label>
+            <input matInput [formControl]="email" required  formControlName="email" style="color: white">
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            <mat-icon matSuffix style="color: white">email</mat-icon>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+
+    <div class="row  justify-content-md-center">
+      <div class="mb-2 pb-2">
+        <mat-form-field appearance="outline" style="width: 30em;">
+          <mat-label>Campo de atuação</mat-label>
+          <input matInput placeholder="" required style="color: white">
+          <mat-icon matSuffix style="color: white">label</mat-icon>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div ngClass="row justify-content-md-center">
+      <button mat-button class="button-atualizar" color="primary">
+        Atualizar Dados
+      </button>
+    </div>
+
+  </mat-card-content>
+</mat-card>
