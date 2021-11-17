@@ -1,1 +1,72 @@
-<p>Tela em desenvolvimento</p>
+<app-toolbar-logado-funcionalidades></app-toolbar-logado-funcionalidades>
+
+<mat-card class="container-md">
+  <mat-tab-group>
+
+    <mat-tab label="Consulta">
+
+    </mat-tab>
+
+    <mat-tab label="Cadastro">
+      <div class="row row-cols-4">
+        <div class="col-auto">
+          <mat-form-field appearance="fill" style="width: 30em;">
+            <mat-label>Data prevista para início do experimento</mat-label>
+            <input matInput [matDatepicker]="dataInicio" required formControlName="dataInicio" style="color: white">
+            <mat-datepicker-toggle matSuffix [for]="dataInicio" style="color: white"></mat-datepicker-toggle>
+            <mat-datepicker #dataInicio></mat-datepicker>
+          </mat-form-field>
+        </div>
+
+        <div class="col-auto">
+          <mat-form-field appearance="fill" style="width: 30em;">
+            <mat-label>Data prevista para término do experimento</mat-label>
+            <input matInput [matDatepicker]="dataFim" required formControlName="dataFim" style="color: white">
+            <mat-datepicker-toggle matSuffix [for]="dataFim" style="color: white"></mat-datepicker-toggle>
+            <mat-datepicker #dataFim></mat-datepicker>
+          </mat-form-field>
+        </div>
+
+        <div class="col-auto">
+
+        </div>
+
+        <div class="col-auto">
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-auto">
+          <mat-form-field appearance="fill" style="width: 40em;">
+            <mat-label style="color: white">Justificativa para uso dos animais</mat-label>
+            <textarea matInput placeholder="Justificativa..." style="color: white"></textarea>
+          </mat-form-field>
+        </div>
+
+        <div class="col-auto">
+          <mat-form-field appearance="fill" style="width: 40em;">
+            <mat-label style="color: white">Resumo do trabalho em português</mat-label>
+            <textarea matInput placeholder="Resumo..." style="color: white"></textarea>
+          </mat-form-field>
+        </div>
+
+        <div class="col-auto">
+          <mat-form-field appearance="fill" style="width: 40em;">
+            <mat-label style="color: white">Resumo do trabalho em inglês</mat-label>
+            <textarea matInput placeholder="Resumo..." style="color: white"></textarea>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <button mat-button class="button-cadastrar" color="primary">
+            Cadastrar
+          </button>
+        </div>
+      </div>
+    </mat-tab>
+
+  </mat-tab-group>
+</mat-card>
