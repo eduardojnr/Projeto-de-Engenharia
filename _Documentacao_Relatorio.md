@@ -219,11 +219,11 @@
 
 # 05/11/2021
 
-• Vitor Costa fez atualizações em _Usuario_ e _Protocolo._
+• Vitor Costa fez atualizações em Usuario e Protocolo.
 
 # 08/11/2021
 
-• Sebastião Vitor atualizou _Protocolo, Pedido_ e _Bioterio._
+• Sebastião Vitor atualizou Protocolo, Pedido e _Bioterio.
 
 # 09/11/2021
 
@@ -249,15 +249,15 @@
 
 • Johnny William atualizou as documentações de perfis;
 
-• Sebastião Vitor adicionou _DetalheUsuarioData._
+• Sebastião Vitor adicionou DetalheUsuarioData.
 
 # 17/11/2021
 
 • Kledyson Goes adicionou a tela de atualização cadastral, protocolos, adicionou o serviço de cadastramento de protocolos e corrigiu tela que não carregava;
 
-• Sebastião Vitor fez atualizações em _UsuarioRepository_ e _DetalheUsuarioService;_
+• Sebastião Vitor fez atualizações em UsuarioRepository e DetalheUsuarioService;
 
-• Johnny William deu início a configuração do ambiente de testes no _JMeter_
+• Johnny William deu início a configuração do ambiente de testes no JMeter
 
 ****************************************
 
@@ -287,6 +287,16 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 
 ![Commits Eduardo e Sebastião](https://i.imgur.com/IyhGKFj.png)
 
+# 03/11 a 17/11
+
+![Commits do repositório](https://i.imgur.com/TWrjrvo.png)
+
+![Commits Johnny e Kledyson](https://i.imgur.com/97d0YCD.png)
+
+![Commits Eduardo e Sebastião](https://i.imgur.com/IgsHrjO.png)
+
+![Commits Guilherme e Sebastião²](https://i.imgur.com/jIH03Lf.png)
+
 # Sprints e Tarefas
 
 ## As tarefas desenvolvidas entre os dias 29/09 e 13/10 foram:
@@ -307,8 +317,6 @@ Dashboard da secretária
 ![Dashboard Secretária](https://i.imgur.com/wLo0M8W.png)
 
 ## As tarefas desenvolvidas entre os dias 13/10 e 03/11 foram:
-
-As tarefas desenvolvidas e entregues entre os dias 13/10 e 03/11 foram:
 
 - Subir back-end na web
 
@@ -331,6 +339,20 @@ As tarefas desenvolvidas e entregues entre os dias 13/10 e 03/11 foram:
 - Épico 1 - História de usuário 1
 
 - Épico 2 - História de usuário 1
+
+## As tarefas desenvolvidas entre os dias 03/11 e 17/11 foram:
+
+- Ajustar conexão entre back-end e front-end // Tela de login
+
+- Aplicar melhorias de UX/IX no programa
+
+- Parametrizar telas bloqueados por login
+
+- Configurar toolbar enquanto logado
+
+- Criar validações dos usuários
+
+- Correções da aplicação no Vercel
 
 # Telas
 
