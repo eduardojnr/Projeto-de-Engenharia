@@ -213,6 +213,52 @@
 
 • Eduardo Carlos e Johnny William atuaram atualizando a documentação do documento.
 
+# 04/11/2021
+
+• Kledyson Goes realizou correções no vercel e atualizou a tela de cadastro.
+
+# 05/11/2021
+
+• Vitor Costa fez atualizações em _Usuario_ e _Protocolo._
+
+# 08/11/2021
+
+• Sebastião Vitor atualizou _Protocolo, Pedido_ e _Bioterio._
+
+# 09/11/2021
+
+• Kledyson Goes implementou códigos para validação de senha usuário.
+
+# 10/11/2021
+
+• Johnny William fez atualizações na documentação dos perfis.
+
+# 11/11/2021
+
+• Kledyson Goes configurou o token de login;
+
+• Johnny William atualizou as documentações referente ao perfil de presidente.
+
+# 14/11/2021
+
+• Kledyson Goes fez atualizações na aparência da tela de cadastro.
+
+# 16/11/2021
+
+• Kledyson Goes implementou uma toolbar para os usuários logados;
+
+• Johnny William atualizou as documentações de perfis;
+
+• Sebastião Vitor adicionou _DetalheUsuarioData._
+
+# 17/11/2021
+
+• Kledyson Goes adicionou a tela de atualização cadastral, protocolos, adicionou o serviço de cadastramento de protocolos e corrigiu tela que não carregava;
+
+• Sebastião Vitor fez atualizações em _UsuarioRepository_ e _DetalheUsuarioService;_
+
+• Johnny William deu início a configuração do ambiente de testes no _JMeter_
+
 ****************************************
 
 ### Insights dos colaboradores
