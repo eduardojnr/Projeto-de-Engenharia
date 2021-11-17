@@ -11,6 +11,16 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Matheus Barbosa|Back-end| 
 |Paulo Vitor|Back-end|
 
+## Link da Aplicação
+
+<div>
+  <a href="https://projeto-de-engenharia-lyart.vercel.app/">
+    <img src="https://projeto-de-engenharia-lyart.vercel.app/assets/icons/png/experiment.png" width="6%" />
+    Clique aqui 
+  </a>
+</div>
+  
+  
 ## Tecnologias
 <div>
   <a href="https://github.com/eduardojnr/Projeto-de-Engenharia">
