@@ -203,11 +203,11 @@
 
 • Kledyson Goes consertou o problema de build do vercel e atualizou o visual da tela de login.
 
-# 02/10/2021
+# 02/11/2021
 
 • Vitor Costa realizou alterações em _Bioterio, BioterioController, BioterioRepository, EspecieRepository, EspecieController, PedidoController, ProtocoloController, Especie, Pedido, Protocolo, ProtocoloRepository, PedidoRepository_ e _BioterioService._
 
-# 03/10/2021
+# 03/11/2021
 
 • Kledyson Goes atualizou os serviços de login com validações etc.;
 
