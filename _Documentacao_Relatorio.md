@@ -339,6 +339,20 @@ Dashboard da secretária
 - Correções da aplicação no Vercel
 - Atualizações no relatório
 - Atualizações na documentação de perfis
+- Visual da tela de cadastro foi reformulado e melhorado
+- Visual da tela de login foi reformulado e melhorado
+- Criado Tela de Atualização Cadastral (Já disponível para Pesquisador e Secretária)
+- Criado Tela de Protocolos (Já funcionando o cadastramento)
+
+- Criado Menu da Secretária
+
+- Melhoria nos serviços de utilização do token (No Front-end)
+- Adicionado Validações e mensagens na tela de login e cadastro:
+
+- Validação na tela de cadastro para não permitir que o username seja igual a senha
+- Validação na tela de login para não permitir que o botão logar seja clicado sem o preenchimento do email e senha
+- Mensagem na tela de login informando para preencher email e senha, são exibidas caso um ou ambos campos não sejam preenchidos (após clicar no campo e sair sem preencher)
+
 
 # Telas
 
