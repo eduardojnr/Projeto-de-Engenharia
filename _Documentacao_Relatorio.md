@@ -72,7 +72,6 @@
 
 ![Tela de Cadastro](https://i.imgur.com/TkoXXVY.png)
 
-
 # 18/09/2021
 
 • O membro Vitor Costa implementou em Java os requisitos de Back-end descritos nos épicos 1 e 2.
@@ -319,57 +318,52 @@ Dashboard da secretária
 ## As tarefas desenvolvidas entre os dias 13/10 e 03/11 foram:
 
 - Subir back-end na web
-
 - Subir front-end na web
-
 - Desenvolvimento da Tela inicial
-
 - Ajustar conexão entre back-end e front-end // Tela de cadastro
-
 - Criar serviço para cadastrar novos usuários;
-
 - Alinhar tela de cadastro com banco de dados;
-
 - Documentação/Relatório
-
 - Implementar as classes da tela pesquisador
-
 - Criar tela de carregamento
-
 - Épico 1 - História de usuário 1
-
 - Épico 2 - História de usuário 1
 
 ## As tarefas desenvolvidas entre os dias 03/11 e 17/11 foram:
 
 - Ajustar conexão entre back-end e front-end // Tela de login
-
 - Aplicar melhorias de UX/IX no programa
-
 - Parametrizar telas bloqueados por login
-
 - Configurar toolbar enquanto logado
-
 - Criar validações dos usuários
-
 - Correções da aplicação no Vercel
+- Atualizações no relatório
+- Atualizações na documentação de perfis
 
 # Telas
 
-![Tela Inicial](https://i.imgur.com/sYbDwMp.png)
+![Tela de Carregamento](https://i.imgur.com/Za8yH2o.png)
 
-![Tela Cadastro](https://i.imgur.com/6VMX8L1.png) 
+![Tela Cadastro](https://i.imgur.com/mzgrX6E.png)
 
-![Recuperar Senha](https://i.imgur.com/gyMhORz.png)
+[//]: <![Notificação Dados já cadastrados em outro usuário]()>
 
-![Menu Pesquisador](https://i.imgur.com/04VUtFd.png)
+![Notificação Usuario Cadastrado com sucesso](https://i.imgur.com/91TYbrp.png)
 
-## Próxima Sprint
+![Recuperar Senha](https://i.imgur.com/tld7nzd.png)
 
-As tarefas que serão entregues para próxima sprint serão:
+![Tela de Login](https://i.imgur.com/EsoISYS.png)
 
-- Tela pesquisador
+![Notificação Usuario/Senha inválidos](https://i.imgur.com/1BNcHw3.png)
 
-- Início tela secretária
+![Menu Pesquisador](https://i.imgur.com/K114Wip.png)
 
-- Melhorias em funções anteriores
+![Tela atualização cadastral pesquisador](https://i.imgur.com/K3wuNa6.png)
+
+[//]: <![Tela Consulta de Protocolo do Usuário]()>
+
+![Tela Cadastro de Protocolo](https://i.imgur.com/x5S3zN0.png)
+
+[//]: <![Telas Secretária]()>
+
+[//]: <![Telas Presidente]()>
