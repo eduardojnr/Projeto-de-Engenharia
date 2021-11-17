@@ -19,4 +19,11 @@ export class PesquisadorComponent implements OnInit {
         window.location.reload();
       });
   }
+
+  reloadPageProtocolo(): void {
+    this.router.navigate(['/protocolos'])
+      .then(() => {
+        window.location.reload();
+      });
+  }
 }
