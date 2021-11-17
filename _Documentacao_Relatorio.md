@@ -370,14 +370,17 @@ Dashboard da secretária
 
 ![Notificação Usuario/Senha inválidos](https://i.imgur.com/1BNcHw3.png)
 
+Menu Pesquisador
 ![Menu Pesquisador](https://i.imgur.com/K114Wip.png)
 
 ![Tela atualização cadastral pesquisador](https://i.imgur.com/K3wuNa6.png)
 
 [//]: <![Tela Consulta de Protocolo do Usuário]()>
 
-![Tela Cadastro de Protocolo](https://i.imgur.com/fUn0Hpo.png)
+![Tela Cadastro de Protocolo](https://i.imgur.com/HWgM5lt.png)
 
-[//]: <![Telas Secretária]()>
+Menu Secretária
+![Tela Menu Secretária](https://i.imgur.com/PhsQZYy.png)
 
+Menu Presidente
 [//]: <![Telas Presidente]()>
