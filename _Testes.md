@@ -1,6 +1,6 @@
 
 # Plano de teste
-* Nome da aplicação: SCEAPP – 
+* Nome da aplicação: SCEAPP – Sistema de Controle de Experimentação em Animais
 * Alvo do teste
 * Tipo de teste: Performance e Stress
 * Objetivo
