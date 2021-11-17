@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pesquisador',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PesquisadorComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  reloadPageAtualizacao(): void {
+    this.router.navigate(['/atualizarCadastro'])
+      .then(() => {
+        window.location.reload();
+      });
+  }
 }

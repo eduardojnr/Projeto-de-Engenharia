@@ -1,6 +1,6 @@
 <app-toolbar-logado-funcionalidades></app-toolbar-logado-funcionalidades>
 <mat-card class="container">
-  <mat-card-content class="container">
+  <mat-card-content class="container justify-content-md-center">
     <div class="row justify-content-md-center">
       <mat-card-title class="text">Atualização Cadastral</mat-card-title>
     </div>
@@ -18,14 +18,12 @@
 
     <div class="row  justify-content-md-center">
       <div class="mb-2 pb-2">
-        <div class="mb-2 pb-2">
-          <mat-form-field appearance="outline" style="width: 30em;">
-            <mat-label>Email</mat-label>
-            <input matInput [formControl]="email" required  formControlName="email" style="color: white">
-            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-            <mat-icon matSuffix style="color: white">email</mat-icon>
-          </mat-form-field>
-        </div>
+        <mat-form-field appearance="outline" style="width: 30em;">
+          <mat-label>Email</mat-label>
+          <input matInput [formControl]="email" required  formControlName="email" style="color: white">
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+          <mat-icon matSuffix style="color: white">email</mat-icon>
+        </mat-form-field>
       </div>
     </div>
 
