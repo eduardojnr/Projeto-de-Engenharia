@@ -1,4 +1,4 @@
-# Projeto-de-Engenharia
+# Projeto-de-Engenharia - Grupo 1
 Trabalho prático referente a máteria de "Laborátorio de Engenharia de Software" ministrada pelo professor Fabio Gomes Rocha
 
 |   Team  | Role
