@@ -8,8 +8,8 @@ Trabalho prático referente a máteria de "Laborátorio de Engenharia de Softwar
 |Kledyson Goes|Front-end|
 |Guilherme Vieira|Front-end|
 |Sebastião Vitor|Back-end|
-|Matheus Barbosa|Back-end| 
 |Paulo Vitor|Back-end|
+|Matheus Barbosa|Test| 
 
 ## Link da Aplicação
 
