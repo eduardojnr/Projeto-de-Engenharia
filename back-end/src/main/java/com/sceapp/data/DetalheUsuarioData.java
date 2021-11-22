@@ -1,62 +1,54 @@
 package com.sceapp.data;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Optional;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.sceapp.domain.Usuario;
 
-public class DetalheUsuarioData implements UserDetails{
-	
-	private final Optional<Usuario> usuario;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Optional;
 
-	public DetalheUsuarioData(Optional<Usuario> usuario) {
-		this.usuario = usuario;
-	}
-	
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		// TODO Auto-generated method stub
-		return new ArrayList<>();
-	}
+public class DetalheUsuarioData implements UserDetails {
 
-	@Override
-	public String getPassword() {
-		// TODO Auto-generated method stub
-		return usuario.orElse(new Usuario()).getSenha();
-	}
+    private final Optional<Usuario> usuario;
 
-	@Override
-	public String getUsername() {
-		// TODO Auto-generated method stub
-		return usuario.orElse(new Usuario()).getUsername();
-	}
- 
-	@Override
-	public boolean isAccountNonExpired() {
-		// TODO Auto-generated method stub
-		return true;
-	}
+    public DetalheUsuarioData(Optional<Usuario> usuario) {
+        this.usuario = usuario;
+    }
 
-	@Override
-	public boolean isAccountNonLocked() {
-		// TODO Auto-generated method stub
-		return true;
-	}
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return new ArrayList<>();
+    }
 
-	@Override
-	public boolean isCredentialsNonExpired() {
-		// TODO Auto-generated method stub
-		return true;
-	}
+    @Override
+    public String getPassword() {
+        return usuario.orElse(new Usuario()).getSenha();
+    }
 
-	@Override
-	public boolean isEnabled() {
-		// TODO Auto-generated method stub
-		return true;
-	}
+    @Override
+    public String getUsername() {
+        return usuario.orElse(new Usuario()).getUsername();
+    }
 
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
 }
