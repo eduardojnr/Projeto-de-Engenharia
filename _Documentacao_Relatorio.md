@@ -256,7 +256,15 @@
 
 • Sebastião Vitor fez atualizações em UsuarioRepository e DetalheUsuarioService;
 
-• Johnny William deu início a configuração do ambiente de testes no JMeter
+• Johnny William deu início a configuração do ambiente de testes no JMeter.
+
+# 18/11/2021
+
+• Sebastião Vitor implementou o atributo de campo de atuação no back-end.
+
+# 21/11/2021
+
+• Sebastião Vitor implementou validações em _JWTAutenticarFilter_.
 
 ****************************************
 
