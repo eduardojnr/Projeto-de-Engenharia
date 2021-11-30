@@ -246,7 +246,7 @@ Cenário de teste funcional exploratório
 * Quantidade de usuário simultâneos: 60
 * Tempo de inicialização: 60 segundos
 * Interações: 5
-
+---
 * Nome: Teste de performance Cenário 2
 * Descrição: Testar requisições HTTP da tela principal de login do SCEAPP
 * Protocolo: http
@@ -254,9 +254,7 @@ Cenário de teste funcional exploratório
 * Quantidade de usuário simultâneos: 100
 * Tempo de inicialização: 1 segundos
 * Interações: 5
-
-
-
+---
 * Nome: Teste de performance Cenário 3
 * Descrição: Teste de carga na tela de cadastrar protocolos.
 * Protocolo: http
@@ -264,7 +262,7 @@ Cenário de teste funcional exploratório
 * Quantidade de usuário simultâneos: 20
 * Tempo de inicialização: 1 segundos
 * Interações: 4
-
+---
 * Nome: Teste de performance Cenário 4
 * Descrição: Teste de carga na tela de atualizar cadastro.
 * Protocolo: http
@@ -273,23 +271,23 @@ Cenário de teste funcional exploratório
 * Tempo de inicialização: 1 segundos
 * Interações: 5
 
-<center>**Relatório de execução**</center>
+<center>Relatório de execução</center>
 
 * Cenário 1:
 * Vídeo capturado: https://www.loom.com/share/b68753dd117347c9a61c2ff2e73873f2
 * Percentual de erro: 0,00%
 * Vazão: 4,6/sec
-
+---
 * Cenário 2:
 * Vídeo capturado: https://www.loom.com/share/c6c9d84d525f43148edb93489e75b874
 * Percentual de erro: 0,00%
 * Vazão: 21,7/sec
-
+---
 * Cenário 3:
 * Vídeo capturado: https://www.loom.com/share/cac6169baccc4991bc1fa8dd70606de0
 * Percentual de erro: 0,00%
 * Vazão: 12,9/sec
-
+---
 * Cenário 4:
 * Vídeo capturado: https://www.loom.com/share/15f06a8d8cf64e4dad96e23918051188
 * Percentual de erro: 0,00%
