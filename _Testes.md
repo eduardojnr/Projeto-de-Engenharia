@@ -252,9 +252,8 @@ Cenário de teste funcional exploratório
 * Tempo de inicialização: 1 segundos
 * Interações: 5
 
-<p align="justify">
-  **Relatório de execução**
-</p>
+
+ <div style="text-align: justify"> **Relatório de execução** </div>
 
 * Cenário 1:
 * Vídeo capturado: https://www.loom.com/share/b68753dd117347c9a61c2ff2e73873f2
