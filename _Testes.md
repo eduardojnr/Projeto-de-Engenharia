@@ -213,26 +213,25 @@
 
 ## Teste de Carga utilizando o Jmeter:
 
- __Plano de teste__
+### __Plano de teste__
 
-Nome da aplicação: SCEAPP
+* Nome da aplicação: SCEAPP
 
- __Alvo do teste__
+### __Alvo do teste__
 
-Tipo de teste: Performance e Stress
+* Tipo de teste: Performance e Stress
 
- __Objetivo__
+### __Objetivo__
 
+* Performance: Verificar se o sistema atende sem perda de pacotes, o acesso simultâneo de 100 usuários.
+* Stress: Identificar o limite máximo de usuários simultâneos no sistema sem perda de pacote.
+* Período de teste: 29.11.2021 (20h às 21:35h)
 
-Performance: Verificar se o sistema atende sem perda de pacotes, o acesso simultâneo de 100 usuários.
-Stress: Identificar o limite máximo de usuários simultâneos no sistema sem perda de pacote.
-Período de teste: 29.11.2021 (20h às 21:35h)
+### __Ambiente de teste__
 
- __Ambiente de teste__
-
-Teste realizado em ambiente de produção a partir do link: https://projeto-de-engenharia-lyart.vercel.app/
-Ferramenta: JMeter
-Cenário de teste funcional exploratório
+* Teste realizado em ambiente de produção a partir do link: https://projeto-de-engenharia-lyart.vercel.app/
+* Ferramenta: JMeter
+* Cenário de teste funcional exploratório
 
 ### __Cenário de teste de performance__
 
