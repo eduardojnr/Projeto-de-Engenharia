@@ -174,38 +174,38 @@
 
 * Tela: https://projeto-de-engenharia-lyart.vercel.app/cadastro (criar conta)
 
-<center>
 
-![image](https://user-images.githubusercontent.com/89170559/143966975-4e99db0b-bf7b-4dd9-8eb0-343d678aa8dd.png)
+<p align="center" width="100%">
+    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143966975-4e99db0b-bf7b-4dd9-8eb0-343d678aa8dd.png">
+</p>
 
-</center>
  
 * Tela está com dois idiomas, português e inglês:
 * Nas informações para login o nome de usuário está como “Username” e o restante da tela está em português.
 * O campo “Senha” não está com o asterisco “* “de campo obrigatório.
 * O campo “Data de Nascimento” não está com o formato correto e não exibe o número “0” dos dias e meses que necessitam da sua exibição:
-<center>
- 
- ![image](https://user-images.githubusercontent.com/89170559/143966998-08a82aab-636f-4b15-acdd-5ebc9eda9cc0.png)
 
-</center>
+
+<p align="center" width="100%">
+    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143966998-08a82aab-636f-4b15-acdd-5ebc9eda9cc0.png">
+</p>
+
 
 * Ao Preencher todos os campos exceto o campo “senha” da tela “Criar conta”, o usuário é cadastrado com sucesso.
 
 
 <p align="center" width="100%">
-    <img width="70%" src="https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png">
+    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png">
 </p>
-
 
 
 * Tela: https://projeto-de-engenharia-lyart.vercel.app/recovery (Recuperar Senha)
  
-<center>
 
- ![image](https://user-images.githubusercontent.com/89170559/143967056-b1b39c86-2691-4614-8d76-d811b2e24533.png)
+<p align="center" width="100%">
+    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143967056-b1b39c86-2691-4614-8d76-d811b2e24533.png">
+</p>
 
-</center>
 
 * O campo para preenchimento do e-mail não é totalmente visível só se torna levemente visível quando há um click sobre o campo e não é possível realizar o preenchimento do campo, o mesmo está bloqueado para preenchimento.
 
