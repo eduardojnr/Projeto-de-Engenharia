@@ -39,132 +39,132 @@
 * Step: Selecionar Criar usuário. 
 * Resultado esperado: Exibir tela de criação de usuário. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo Nome de Usuário e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo E-mail e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo Senha e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo Nome e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo CPF e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo Data de Nascimento e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher somente o campo Sexo e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento dos campos obrigatórios. 
 * Resultado final: OK.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher todos os campos da tela exceto o campo Senha e criar clicar em cadastrar. 
 * Resultado esperado: Não cadastrar o usuário e solicitar o preenchimento do campo senha. 
 * Resultado final: O cadastro do usuário é concluído sem preenchimento do campo Senha.
-
+---
 * Cenário: Criar usuário. 
 * Step: Preencher Todos os campos e criar clicar em cadastrar. 
 * Resultado esperado: Cadastrar novo usuário. 
 * Resultado final: OK
-
+---
 * Cenário: Logar usuário. 
 * Step: Preencher o Nome do Usuário e a Senha e clicar em Login. 
 * Resultado esperado: Realizar login de usuário. 
 * Resultado final: OK.
-
+---
 * Cenário: Logar usuário. 
 * Step: Preencher o Nome do Usuário e a Senha com usuário e senha inválidos. 
 * Resultado esperado: Não realizar login de usuário e informar que o usuário é inválido.
 * Resultado final: OK.
-
+---
 * Cenário: Recuperar Senha.
 * Step: Preencher campo E-mail e clicar em Solicitar Recuperação
 * Resultado esperado: Enviar e-mail solicitando recuperação de senha para o e-mail cadastrado.
 * Resultado final: O campo de E-mail não é visível e não é possível preenche-lo.
-
+---
 * Cenário: Acessar Menu.
 * Step: Clicar no Ícone de Menu 
 * Resultado esperado: Exibir o Menu do Sistema.
 * Resultado final: O botão de menu não é funcional.
-
+---
 * Cenário: Atualizar Cadastro. 
 * Step: Preencher somente o campo Senha e clicar em Atualizar Dados.
 * Resultado esperado: Exibir mensagem para preencher os demais campos da tela.
 * Resultado final: Nenhuma ação é realizada pelo sistema.
-
+---
 * Cenário: Atualizar Cadastro. 
 * Step: Preencher somente o campo E-mail e clicar em Atualizar Dados.
 * Resultado esperado: Exibir mensagem para preencher os demais campos da tela.
 * Resultado final: Nenhuma ação é realizada pelo sistema.
-
+---
 * Cenário: Atualizar Cadastro. 
 * Step: Preencher somente o campo Campo de Atuação e clicar em Atualizar Dados.
 * Resultado esperado: Exibir mensagem para preencher os demais campos da tela.
 * Resultado final: Nenhuma ação é realizada pelo sistema.
-
+---
 * Cenário: Atualizar Cadastro. 
 * Step: Preencher todos os campos e clicar em Atualizar Dados.
 * Resultado esperado: Atualizar os dados com sucesso.
 * Resultado final: Nenhuma ação é realizada pelo sistema.
-
+---
 * Cenário: Cadastrar Protocolos. 
 * Step: Preencher somente o campo Data prevista para início do experimento e clicar em cadastrar.
 * Resultado esperado: Exibir mensagem para preencher os demais campos obrigatórios da tela.
 * Resultado final: OK.
-
+---
 * Cenário: Cadastrar Protocolos. 
 * Step: Preencher somente o campo Data prevista para término do experimento e clicar em cadastrar.
 * Resultado esperado: Exibir mensagem para preencher os demais campos obrigatórios da tela.
 * Resultado final: OK.
-
+---
 * Cenário: Cadastrar Protocolos. 
 * Step: Preencher somente o campo Justificativa para uso dos animais e clicar em cadastrar.
 * Resultado esperado: Exibir mensagem para preencher os demais campos obrigatórios da tela.
 * Resultado final: OK.
-
+---
 * Cenário: Cadastrar Protocolos. 
 * Step: Preencher somente o campo Resumo do trabalho em português e clicar em cadastrar.
 * Resultado esperado: Exibir mensagem para preencher os demais campos obrigatórios da tela.
 * Resultado final: OK.
-
+---
 * Cenário: Cadastrar Protocolos. 
 * Step: Preencher somente o campo Resumo do trabalho em inglês e clicar em cadastrar.
 * Resultado esperado: Exibir mensagem para preencher os demais campos obrigatórios da tela.
 * Resultado final: OK.
-
+---
 * Cenário: Cadastrar Protocolos. 
 * Step: Preencher Todos os campos da tela e clicar em cadastrar.
 * Resultado esperado: Cadastrar o experimento.
 * Resultado final: Botão cadastrar não cadastra o experimento.
-
+---
 * Cenário: Voltar para tela anterior.
 * Step: Clicar no ícone de voltar.
 * Resultado esperado: Voltar para tela anterior.
 * Resultado final: OK.
-
+---
 * Cenário: Exibir informações.
 * Step: Clicar no ícone de Informações.
 * Resultado esperado: Exibir Informações do Sistema.
 * Resultado final: Nenhuma ação é executada.
-
+---
 * Cenário: Sair da conta de usuário.
 * Step: Clicar no ícone de sair.
 * Resultado esperado: Executar o logout do usuário e voltar para tela de login.
