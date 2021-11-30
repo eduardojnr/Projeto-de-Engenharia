@@ -190,19 +190,19 @@
 
 ## Teste de Carga utilizando o Jmeter:
 
-<div align="center">
+<div align="justify">
   **Plano de teste**
 </div>
 
 Nome da aplicação: SCEAPP
 
-<div align="center">
+<div align="justify">
   **Alvo do teste**
 </div>
 
 Tipo de teste: Performance e Stress
 
-<div align="center">
+<div align="justifyr">
   **Objetivo**
 </div>
 
@@ -253,7 +253,7 @@ Cenário de teste funcional exploratório
 * Interações: 5
 
 
-<div align="center">
+<div align="justify">
   **Relatório de execução**
 </div>
 
