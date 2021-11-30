@@ -186,8 +186,8 @@
 * O campo “Data de Nascimento” não está com o formato correto e não exibe o número “0” dos dias e meses que necessitam da sua exibição:
 
 
-<p align="center" width="100%">
-    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143966998-08a82aab-636f-4b15-acdd-5ebc9eda9cc0.png">
+<p align="center" >
+    <img  src="https://user-images.githubusercontent.com/89170559/143966998-08a82aab-636f-4b15-acdd-5ebc9eda9cc0.png">
 </p>
 
 
