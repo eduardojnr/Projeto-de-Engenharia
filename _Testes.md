@@ -194,7 +194,7 @@
 
 
 <p align="center" width="100%">
-    <img width="32%" src="https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png">
+    <img width="70%" src="https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png">
 </p>
 
 
