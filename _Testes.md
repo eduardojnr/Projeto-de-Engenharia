@@ -194,16 +194,16 @@
 * Ao Preencher todos os campos exceto o campo “senha” da tela “Criar conta”, o usuário é cadastrado com sucesso.
 
 
-<p align="center" width="100%">
-    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png">
+<p align="center" >
+    <img  src="https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png">
 </p>
 
 
 * Tela: https://projeto-de-engenharia-lyart.vercel.app/recovery (Recuperar Senha)
  
 
-<p align="center" width="100%">
-    <img width="90%" src="https://user-images.githubusercontent.com/89170559/143967056-b1b39c86-2691-4614-8d76-d811b2e24533.png">
+<p align="center">
+    <img  src="https://user-images.githubusercontent.com/89170559/143967056-b1b39c86-2691-4614-8d76-d811b2e24533.png">
 </p>
 
 
