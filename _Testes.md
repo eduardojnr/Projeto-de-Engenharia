@@ -189,7 +189,9 @@
  ![image](https://user-images.githubusercontent.com/89170559/143966998-08a82aab-636f-4b15-acdd-5ebc9eda9cc0.png)
 
 </center>
+
 * Ao Preencher todos os campos exceto o campo “senha” da tela “Criar conta”, o usuário é cadastrado com sucesso.
+
 <center>
  
  ![image](https://user-images.githubusercontent.com/89170559/143967006-b22ae1f1-5b61-438f-9616-8d4c02b3ef79.png)
@@ -211,21 +213,16 @@
 
 ## Teste de Carga utilizando o Jmeter:
 
-<div align="justify">
-  **Plano de teste**
-</div>
+:---:  __Plano de teste__
 
 Nome da aplicação: SCEAPP
 
-<div align="justify">
-  **Alvo do teste**
-</div>
+:---:  __Alvo do teste__
 
 Tipo de teste: Performance e Stress
 
-<div align="justifyr">
-  **Objetivo**
-</div>
+:---: __Objetivo__
+
 
 Performance: Verificar se o sistema atende sem perda de pacotes, o acesso simultâneo de 100 usuários.
 Stress: Identificar o limite máximo de usuários simultâneos no sistema sem perda de pacote.
@@ -271,7 +268,7 @@ Cenário de teste funcional exploratório
 * Tempo de inicialização: 1 segundos
 * Interações: 5
 
-<center>Relatório de execução</center>
+:---: __Relatório de execução__
 
 * Cenário 1:
 * Vídeo capturado: https://www.loom.com/share/b68753dd117347c9a61c2ff2e73873f2
