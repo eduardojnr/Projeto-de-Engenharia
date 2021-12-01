@@ -286,39 +286,53 @@
 
 Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https://github.com/eduardojnr/Projeto-de-Engenharia/commits/main?after=1226c7f455d6b5f63acb97eaf6bee8800ab0a441+69&amp;branch=main).
 
+# Commits desde o início do projeto:
+
+![Commits](https://i.imgur.com/iMKfpfT.png)
+
+# 15/08 a 01/09
+
+![Commits Johnny e Eduardo](https://i.imgur.com/ExZ1mD0.png)
+
+# 01/09 a 15/09
+
+![Commits Kledyson e Johnny](https://i.imgur.com/4HDOpjH.png)
+
+![Commits Guilherme Vieira e Sebastião Vitor](https://i.imgur.com/3Aol8vf.png)
+
+# 15/09 a 29/09
+
+![Commits Kledyson e Johnny](https://i.imgur.com/wzK1Ip2.png)
+
+![Commits Guilherme Vieira e Sebastião Vitor](https://i.imgur.com/NwtWkQm.png)
+
 # 29/09 a 13/10
 
-![Commits do repositório](https://i.imgur.com/mXWfcMb.png)
+![Commits Kledyson e Vitor Costa](https://i.imgur.com/stDGyb8.png)
 
-![Commits Kledyson e Vitor Costa](https://i.imgur.com/9VAWeBw.png)
-
-![Commits Johnny e Gabriel](https://i.imgur.com/DcAsaju.png)
-
-![Commits Eduardo e Sebastião Vitor](https://i.imgur.com/bfGjO5h.png)
+![Commits Guilherme Vieira e Sebastião Vitor](https://i.imgur.com/lkf9yc7.png)
 
 # 13/10 a 03/11
 
-![Commits do repositório](https://i.imgur.com/vkO2eeD.png)
+![Commits Johnny e Kledyson](https://i.imgur.com/cTjLZkS.png)
 
-![Commits Johnny e Kledyson](https://i.imgur.com/tJANlMo.png)
+![Commits V. Costa e Eduardo](https://i.imgur.com/0p6ojKJ.png)
 
-![Commits V. Costa e Guilherme](https://i.imgur.com/Re6OLsh.png)
-
-![Commits Eduardo e Sebastião](https://i.imgur.com/IyhGKFj.png)
+![Commits Guilherme e Sebastião](https://i.imgur.com/ykxxr17.png)
 
 # 03/11 a 17/11
 
-![Commits do repositório](https://i.imgur.com/TWrjrvo.png)
+![Commits Johnny e Kledyson](https://i.imgur.com/PvlohEf.png)
 
-![Commits Johnny e Kledyson](https://i.imgur.com/97d0YCD.png)
+![Commits Eduardo e Sebastião]()
 
-![Commits Eduardo e Sebastião](https://i.imgur.com/IgsHrjO.png)
-
-![Commits Guilherme e Sebastião²](https://i.imgur.com/jIH03Lf.png)
+![Commits Guilherme e V. Costa](https://i.imgur.com/lWtuRQR.png)
 
 # 17/11 a 01/12
 
-![Commits do repositório]()
+![Commits Matheus e V. Costa](https://i.imgur.com/KjKXu3S.png)
+
+![Commits Eduardo e Sebastião](https://i.imgur.com/co2nB6J.png)
 
 
 # Sprints e Tarefas
