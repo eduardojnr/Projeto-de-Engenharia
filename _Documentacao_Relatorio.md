@@ -68,10 +68,6 @@
 
 • O membro Kledyson Goes fez os protótipos das telas de login e cadastro.
 
-![Tela de Login](https://i.imgur.com/FHFwFXLh.jpg)
-
-![Tela de Cadastro](https://i.imgur.com/TkoXXVY.png)
-
 # 18/09/2021
 
 • O membro Vitor Costa implementou em Java os requisitos de Back-end descritos nos épicos 1 e 2.
