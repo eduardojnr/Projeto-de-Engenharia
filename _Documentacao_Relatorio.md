@@ -266,6 +266,18 @@
 
 • Sebastião Vitor implementou validações em _JWTAutenticarFilter_.
 
+# 29/11/2021
+
+• Vitor Costa realizou atualizações em _settings.json_, _pom.xml_ e _DetalheUsuarioService.java_;
+
+• Matheus Barbosa realizou criou o _Testes.md_, onde implementou os Casos de teste com auxílio da ferramenta JMeter.
+
+# 30/11/2021
+
+• Matheus Barbosa atualizou _Testes.md_ e criou _SoftwarePerformanceTesting.md_;
+
+• Vitor Costa realizou atualizações em _pom.xml_.
+
 ****************************************
 
 ### Insights dos colaboradores
@@ -303,6 +315,11 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 ![Commits Eduardo e Sebastião](https://i.imgur.com/IgsHrjO.png)
 
 ![Commits Guilherme e Sebastião²](https://i.imgur.com/jIH03Lf.png)
+
+# 17/11 a 01/12
+
+![Commits do repositório]()
+
 
 # Sprints e Tarefas
 
