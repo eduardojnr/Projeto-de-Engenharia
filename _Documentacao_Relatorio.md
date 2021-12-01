@@ -320,7 +320,7 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 
 ![Commits Johnny e Kledyson](https://i.imgur.com/PvlohEf.png)
 
-![Commits Eduardo e Sebastião]()
+![Commits Eduardo e Sebastião](https://i.imgur.com/CqorsxN.png)
 
 ![Commits Guilherme e V. Costa](https://i.imgur.com/lWtuRQR.png)
 
