@@ -322,8 +322,6 @@ Todos os commits estão disponíveis em ordem cronológica clicando [aqui](https
 
 ![Commits Eduardo e Sebastião](https://i.imgur.com/CqorsxN.png)
 
-![Commits Guilherme e V. Costa](https://i.imgur.com/lWtuRQR.png)
-
 # 17/11 a 01/12
 
 ![Commits Matheus e V. Costa](https://i.imgur.com/KjKXu3S.png)
