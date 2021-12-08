@@ -28,6 +28,8 @@ Eduardo Carlos | 24 | 7
 Vitor Santos | 18 | 5
 Guilherme Vieira | 13 | 7
 
+--------------------------------------------
+
 ## FATOR DE PONDERAÇÃO
 Parâmetro da medida | Contagem | Simples | Médio | Complexo | Resultado
 ---|---|---|---|---|---
